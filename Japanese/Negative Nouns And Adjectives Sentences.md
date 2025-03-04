@@ -5,10 +5,12 @@
 **Adjective (שמות תואר) – describes a noun.**  
 **Like a big book, a cute dog, or a smart teacher.**
 
-## **じゃない (janai) – Casual**
+## 🔹**じゃない (janai) – Casual**
 
-🔹 **じゃない** is the **casual form** of ではない and is used to negate **nouns** and **な-adjectives** in informal Japanese.  
+ **じゃない** is the **casual form** of **ではない** and is used to negate **nouns** and **な-adjectives** in informal Japanese.  
  It means **"is not"** or **"aren't"**.
+
+### **🔹 Present Negative (じゃない)**
 
 📘 **これは本じゃない。**  
 (_Kore wa hon janai._) – "This is not a book."
@@ -18,6 +20,17 @@
 
 🏠 **彼の部屋はきれいじゃない。**  
 (_Kare no heya wa kirei janai._) – "His room is not clean."
+
+### 🔹 **Past Negative (じゃなかった) **
+
+📘 **これは本じゃなかった。**  
+(_Kore wa hon janakatta._) – "This was not a book."
+
+🧑‍🏫 **あの人は先生じゃなかった。**  
+(_Ano hito wa sensei janakatta._) – "That person was not a teacher."
+
+🏠 **彼の部屋はきれいじゃなかった。**  
+(_Kare no heya wa kirei janakatta._) – "His room was not clean."
 
 ---
 
