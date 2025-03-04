@@ -9,7 +9,7 @@ Examples:
 
 ---
 
-#  **🔹 Ichidan Verbs (一段動詞) – "One-Step Verbs"**
+#  ==**🔹 Ichidan Verbs (一段動詞) – "One-Step Verbs"**==
 
 **"Ichidan" means "one step":**
 
@@ -27,7 +27,7 @@ They end with an **"iru"** or **"eru"** sound
 
 If a verb **doesn’t** end with this sound, it’s always a **Godan verb**.
 
-**==🔹 Recognizing Ichidan Verbs:==**
+## 🔹 Recognizing Ichidan Verbs:
 
 🔍 **They usually end in "いる" or "える".**
 
@@ -38,16 +38,23 @@ Examples:
 🛌 寝る (_neru_) – "to sleep" (**eru**)  
 🌸 信じる (_shinjiru_) – "to believe" (**iru**)
 
-==🔹 Conjugation (Changing the verb form)==
+## 🔹 Conjugation (Changing the verb form)
 
 Ichidan verbs are easy to conjugate because you just remove "る" and add the new ending.
 
 **Examples:**  
+
 🍣 **食べる → 食べない** (_taberu → tabenai_) – "not eat" (**negative**)  
 👀 **見る → 見た** (_miru → mita_) – "saw" (**past**)  
 🛌 **寝る → 寝なかった** (_neru → nenakatta_) – "didn't sleep" (**past negative**)
 
-# **🔹 Godan Verbs (五段動詞) – "Five-Step Verbs"**
+---
+
+
+
+
+
+# ==**🔹 Godan Verbs (五段動詞) – "Five-Step Verbs"**==
 
 **"Godan" means "five steps":**
 

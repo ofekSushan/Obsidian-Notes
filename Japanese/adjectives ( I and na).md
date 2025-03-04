@@ -33,12 +33,13 @@ To make an **い-adjective past tense**, replace **い** with **かった**.
 💴 **高い → 高かった** (_takai → takakatta_) – "Was expensive"  
 🔥 **暑い → 暑かった** (_atsui → atsukatta_) – "Was hot"
 
-📝 **Special case: "Good" (いい) becomes よかった (yokatta)**
+📝 **Special case: "Good" (いい) becomes よかった (yokatta) ** 
 ✅ **いい → よかった** (_ii → yokatta_) – "Was good"
 
 ---
 
-## 🔹**Past Negative (くなかった) (ku nakatta)**
+
+ # 🔹**Past Negative (くなかった) (ku nakatta)**
 
 To make an **い-adjective past negative**, replace **い** with **くなかった**.
 
@@ -46,4 +47,6 @@ To make an **い-adjective past negative**, replace **い** with **くなかっ�
 💴 **高い → 高くなかった** (_takai → takaku nakatta_) – "Was not expensive"  
 🔥 **暑い → 暑くなかった** (_atsui → atsuku nakatta_) – "Was not hot"
 
-📝 **Special case: "Good" (いい) past negative becomes よくなかった** (yokunakatta)
+📝 **Special case: "Good" (いい) past negative becomes よくなかった (yokunakatta)**
+
+
