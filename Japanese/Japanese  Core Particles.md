@@ -105,7 +105,7 @@
   
 -------------------------------------------------------------------------------------------------------------------------  
   
-# 🔹 も (mo) – Also / Too  
+# **🔹 も (mo) – Also / Too**  
 
 🗣 Pronounced "mo" like "mow" in English.  
   
@@ -193,3 +193,21 @@ summary: "だ" makes statements sound more direct, confident, or emotional.
 (Iya nan da!) – "I really hate this!" (Emotional outburst.)  
 
 -------------------------------------------------------------------------------------------------------------------------  
+
+
+#  **🔹 を (wo/o) – Direct Object / Movement Marker***
+
+🗣 Pronounced "o", not "wo".
+
+summary: "を" marks the **object** of an action or shows **movement through a place**.
+
+1. **Marking the object of an action.**
+2. **Showing movement through or along a place.**
+
+**1.Marking the object of an action:**  
+📖 本を読む。  
+(Hon o yomu.) – "I read a book." (Book is the object being read)
+
+**2.Showing movement through or along a place:**  
+🏞️ 森を歩く。  
+(Mori o aruku.) – "I walk through the forest."
