@@ -211,3 +211,111 @@ summary: "を" marks the **object** of an action or shows **movement through a p
 **2.Showing movement through or along a place:**  
 🏞️ 森を歩く。  
 (Mori o aruku.) – "I walk through the forest."
+# **🔹 に (ni) – Time / Existence / Destination**
+
+🗣 Pronounced "ni" like "knee".
+
+summary: "に" marks **specific times, locations of existence, and movement toward places**.
+
+1. **Marking a specific time.**
+2. **Showing the location of existence.**
+3. **Indicating movement toward a place.**
+
+**1.Marking a specific time:**  
+🕒 8時に帰る。  
+(Hachi-ji ni kaeru.) – "I will return by 8 o'clock." (Specific time)
+
+**2.Showing the location of existence:**  
+🚪 彼は部屋にいますか？  
+(Kare wa heya ni imasu ka?) – "Is he in the room?" (Location of existence)
+
+**3.Indicating movement toward a place:**  
+✈️ 日本に行く。  
+(Nihon ni iku.) – "I go to Japan." (Movement toward a destination)
+# **🔹で (de) – Location / Means**
+🗣 Pronounced "de" like "deh".
+
+summary: "で" marks **where an action happens** or **the means/method of doing something**.
+
+1. **Marking the place of an action.**
+2. **Indicating the means or method of an action.**
+
+**1.Marking the place of an action:**  
+🏫 学校で勉強する。  
+(Gakkou de benkyou suru.) – "I study at school." (The action happens at school)
+
+**2.Indicating the means of an action:**  
+🚆 電車で行く。  
+(Densha de iku.) – "I go by train." (The means of traveling is a train)
+
+🥢 箸で食べる。  
+(Hashi de taberu.) – "I eat with chopsticks." (The means of eating is chopsticks)
+
+# **🔹 でしょう (de-sho) / だろう (da-roo) – Probably / I Told You So!**
+
+🗣 "でしょう": Pronounced "de-sho" (polite)  
+🗣 "だろう": Pronounced "da-roo" (casual, often masculine)
+
+summary: "でしょう" and "だろう" express **probability** or confirm something you already knew.
+
+1. **Making a prediction or guess (Probably).**
+2. **Confirming something you already knew (like "I told you so").**
+
+**1.Making a prediction or guess (Probably):**  
+🌦️ 明日は雨が降るでしょう。 (polite)  
+(Ashita wa ame ga furu deshou.) – "It will probably rain tomorrow."
+
+🤔 彼は来るだろう。 (casual)  
+(Kare wa kuru darou.) – "He’ll probably come." (Confident guess in casual speech)
+
+**2.Confirming something you already knew (like "I told you so")**  
+🍜 美味しいでしょ？ (neutral)  
+(Oishii desho?) – "See? It’s delicious, right?" (You told them earlier, and now you're proving you were right.)
+
+# **🔹 へ (e) – Direction Marker**
+
+🗣 Pronounced "e", not "he".
+
+summary: "へ" shows **movement toward a destination**.
+
+1. **Showing movement toward a destination.**
+
+**1.Showing movement toward a destination:**  
+🏫 学校へ行く。  
+(Gakkou e iku.) – "I go to school." (Heading toward the school)
+
+✈️ 日本へ旅行する。  
+(Nihon e ryokou suru.) – "I travel to Japan." (Heading toward Japan)
+# **🔹から (kara) – Starting Point / Cause**
+
+🗣 Pronounced "kara" like "kah-rah".
+
+summary: "から" marks **the starting point of movement** or **a cause/reason**.
+
+1. **Marking the starting point of movement.**
+2. **Indicating a cause or reason.**
+
+**1.Marking the starting point of movement:**  
+🏔️ 山から降りる。  
+(Yama kara oriru.) – "I come down from the mountain." (Mountain is the starting point)
+
+**2.Indicating a cause or reason:**  
+🧊 寒いから、コートを着る。  
+(Samui kara, kooto o kiru.) – "Because it's cold, I wear a coat." (Cold is the cause)
+
+# **🔹 まで (made) – Limit / Until**
+
+🗣 Pronounced "made" like "mah-deh".
+
+summary: "まで" marks **an endpoint (time/place) or a limit**.
+
+1. **Marking an end point (time/place).**
+2. **Showing a limit or extent.**
+
+**1.Marking an end point (time/place):**  
+🕒 5時まで勉強する。  
+(Go-ji made benkyou suru.) – "I study until 5 o'clock." (5 o'clock is the time limit)
+
+**2.Showing a limit or extent:**  
+🎯 ここまで来てください。  
+(Koko made kite kudasai.) – "Please come this far." (The limit is here)
