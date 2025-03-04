@@ -1,6 +1,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------  
-🔹 は (wa) – Topic Marker  
+# **🔹 は (wa) – Topic Marker**  
+
 🗣 Pronounced "wa" when used as a particle.  
   
 1.Introducing a topic.  
@@ -14,14 +15,15 @@
 2.Making a general statement:  
 🌞 天気はいいです。  
 (Tenki wa ii desu.) – The weather is nice. (General fact)  
+
   
 3.Comparing or contrasting:  
 🍎🍌 りんごは赤いが、バナナは黄色い。  
 (Ringo wa akai ga, banana wa kiiroi.) – Apples are red, but bananas are yellow. (Contrast)  
   
--------------------------------------------------------------------------------------------------------------------------  
-  
-2️⃣ 🔹 が (ga) – Subject Marker  
+--------------
+# **🔹 が (ga) – Subject Marker**  
+
 🗣 Pronounced "ga" like "gah".  
   
 1.Introducing new information.  
@@ -44,8 +46,8 @@
 (Ofeku ga hashitteimasu.) – Ofeku is running. (Answering the question)  
   
 -------------------------------------------------------------------------------------------------------------------------  
-  
-3️⃣ 🔹 か (ka) – Question / Or Marker  
+# **🔹 か (ka) – Question / Or Marker**  
+
 🗣 Pronounced "ka" like "kah".  
   
 1.Turning a statement into a question.  
@@ -70,7 +72,7 @@
   
 -------------------------------------------------------------------------------------------------------------------------  
   
-4️⃣ 🔹 の (no) – Possession Marker  
+# **🔹 の (no) – Possession Marker**  
 🗣 Pronounced "no" like "no" in English.  
   
 1.Showing possession.  
@@ -86,7 +88,7 @@
   
 -------------------------------------------------------------------------------------------------------------------------  
   
-5️⃣ 🔹 と (to) – And / With  
+# 🔹 と (to) – And / With  
 🗣 Pronounced "to" like "toe".  
   
 1.Listing items ("and").  
