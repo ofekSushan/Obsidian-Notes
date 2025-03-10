@@ -20,27 +20,23 @@ Though a coward at heart, Edward refuses to let fear stop him entirely. Rather t
 
 ## **Personality traits:**
 
-Secrets and forgotten knowledge are worth any risk.
+- Secrets and forgotten knowledge are worth any risk.  
 
-I believe every problem has a solution if you’re clever enough to find it.
+- I believe every problem has a solution if you’re clever enough to find it.  
 
-I admire power, but I fear what it takes to truly obtain it.
-
+- I admire power, but I fear what it takes to truly obtain it.
 
 ## **Ideals:**
 
-- Power. If I can attain more power, no one will ever control me.
+- Persistence: Fear may drive me to run, but I will always find a way to overcome my problems no matter the cost.
 
-- Self Reliance. I’ve always believed I can do anything on my own I don’t need anyone else.
-  
+- Self Reliance: Ive always believed I can do anything on my own.
+
 ## **Flaws:**
 
-Inexperience. I crave power, but I don’t truly understand what it takes to get it.
+- Obsession: fascination with old stories often blinds me to the risks they bring.  
 
-Cowardice. I’ve always gotten what I wanted without struggle, so when faced with real danger, my first instinct is to run.
-
-Obsession. My fascination with old stories and forgotten knowledge often blinds me to the risks they bring.
-
+- Cowardice: I've never had to struggle, so when danger comes, I run.
 
 ## Backstory:
 
@@ -57,4 +53,4 @@ Obsession. My fascination with old stories and forgotten knowledge often blinds 
 אבל הוא ידע שזה לא הכול ואחרי מספר דקות של עבודה קשה הצליח למצוא ספר שהיה מוחבא מאוחרי מספר אינסופי של הגנות ושידע שזה הדבר הכי חשוב שיש להם והחליט לשרוף אותו אבל היה חייב לדעת מה היה כל כך מיוחד בו והחליט לפתוח אותו בפנים לא היה כלום לא מילים לא תמונות כלום הוא רצה לשרוף אותו אבל בדיוק שהתחיל את האש הוא שמע קולות
 קולות של אלים לפני אלים וראה דברים שלא היה יכול להבין והוא צעק ההורים שלו ששמעו את זה ישדגרו לכספת והסתכלו על הבן שלהם בעיניים וכל מה שראו זה גועל 
 גועל מי שהם ומה שעשו לו כל החיים שלו ולפני שהצילחו להגיד משהו הבן שלהם נעלם 
-עם הבינו שהוא חתם עסקה שתשנה את החיים שלו.
+עם הבינו שהוא חתם עסקה שתשנה את החיים שלו.ם עסקה שתשנה את החיים שלו.
