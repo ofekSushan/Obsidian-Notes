@@ -30,13 +30,13 @@ Though a coward at heart, Edward refuses to let fear stop him entirely. Rather t
 
 - Persistence: Fear may drive me to run, but I will always find a way to overcome my problems no matter the cost.
 
-- Self Reliance: Ive always believed I can do anything on my own.
+- Self Reliance:  I've  always believed I can do anything on my own.
 
 ## **Flaws:**
 
-- Obsession: fascination with old stories often blinds me to the risks they bring.  
+- Obsession: fascination often blinds me to the risks they bring.
 
-- Cowardice: I've never had to struggle, so when danger comes, I run.
+- Inexperienced: I've never had to fight for anything, I don't know how handle hardship.
 
 ## Backstory:
 
@@ -54,3 +54,9 @@ Though a coward at heart, Edward refuses to let fear stop him entirely. Rather t
 קולות של אלים לפני אלים וראה דברים שלא היה יכול להבין והוא צעק ההורים שלו ששמעו את זה ישדגרו לכספת והסתכלו על הבן שלהם בעיניים וכל מה שראו זה גועל 
 גועל מי שהם ומה שעשו לו כל החיים שלו ולפני שהצילחו להגיד משהו הבן שלהם נעלם 
 עם הבינו שהוא חתם עסקה שתשנה את החיים שלו.ם עסקה שתשנה את החיים שלו.
+
+
+For 
+# [Character Builder](https://www.aidedd.org/dnd-builder/index.php)
+
+![[Edward-Vinx (4) 1.xml]]
