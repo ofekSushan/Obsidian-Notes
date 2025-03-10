@@ -5,26 +5,36 @@ Alignment: Neutral Evil
 
 Age : 25
 
-Eyes: White
-Skin: Red
-Hair: Brown
+**Eyes**: White
+**Skin**: Red
+**Hair**: Brown
 
 Slim, average in height, 
 with a mysterious book one without a cover, without a title, and without a single written word.
 
 ## **Summary:**
 
-Edward Vinx – A man with an insatiable hunger for power and a relentless drive to uncover lost knowledge. He is obsessed with old stories and legends, even if chasing them puts his life at risk.
+**Edward Vinx** – A man with an insatiable hunger for power and a relentless drive to uncover lost knowledge. He is obsessed with old stories and legends, even if chasing them puts his life at risk.
 
-Though a coward at heart, Edward refuses to let fear stop him entirely. Rather than facing danger head on, he relies on his resourcefulness, cunning, and sharp mind to find another way.
+Though a coward at heart, Edward refuses to let fear stop him entirely. Rather than facing danger head-on, he relies on his resourcefulness, cunning, and sharp mind to find another way.
 
-## Ideals:
+## **Personality traits:**
+
+Secrets and forgotten knowledge are worth any risk.
+
+I believe every problem has a solution if you’re clever enough to find it.
+
+I admire power, but I fear what it takes to truly obtain it.
+
+
+## **Ideals:**
 
 - Power. If I can attain more power, no one will ever control me.
 
 - Self Reliance. I’ve always believed I can do anything on my own I don’t need anyone else.
   
-## Flaws:
+## **Flaws:**
+
 Inexperience. I crave power, but I don’t truly understand what it takes to get it.
 
 Cowardice. I’ve always gotten what I wanted without struggle, so when faced with real danger, my first instinct is to run.
