@@ -3,6 +3,8 @@ Gender: Male
 
 Alignment: Neutral Evil 
 
+Background: Noble
+
 Age : 25
 
 **Eyes**: White
