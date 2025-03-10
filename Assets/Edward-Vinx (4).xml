@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<builder>
+
+<confLang>1</confLang>
+
+<character>
+<race>Tiefling</race>
+<class>Warlock</class>
+<level>3</level>
+<background>Noble</background>
+
+<str>8</str>
+<dex>14</dex>
+<con>10</con>
+<int>13</int>
+<wis>12</wis>
+<cha>15</cha>
+
+<lvl lvl="1"><hp_brut>8</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="2"><hp_brut>5</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="3"><hp_brut>5</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="4"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="5"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="6"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="7"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="8"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="9"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="10"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="11"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="12"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="13"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="14"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="15"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="16"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="17"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="18"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="19"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+<lvl lvl="20"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><aug_carac2>-1</aug_carac2></lvl>
+
+<raceCustom></raceCustom>
+<classPath>The Great Old One</classPath>
+<classCustom id="0">0</classCustom>
+<styleCombat1></styleCombat1>
+<styleCombat2></styleCombat2>
+<favoredEnemy0></favoredEnemy0>
+<favoredEnemy6></favoredEnemy6>
+<favoredEnemy14></favoredEnemy14>
+<pack>22</pack>
+<backSpe></backSpe>
+
+<skillsProf id="0"></skillsProf>
+<skillsProf id="1">1,17</skillsProf>
+<skillsProf id="2">6,13</skillsProf>
+<skillsProf id="3"></skillsProf>
+<toolsProf id="0"></toolsProf>
+<toolsProf id="1"></toolsProf>
+<toolsProf id="2">dice set</toolsProf>
+<toolsProf id="3"></toolsProf>
+<languages id="0">Common,Infernal</languages>
+<languages id="1"></languages>
+<languages id="2">Elvish</languages>
+<languages id="3"></languages>
+
+<innateSpell lvl="0">thaumaturgy</innateSpell>
+<innateSpell lvl="0">hellish rebuke</innateSpell>
+<innateSpell lvl="3">find familiar</innateSpell>
+<knownSpell lvl="0">eldritch blast</knownSpell>
+<knownSpell lvl="0">mage hand</knownSpell>
+<knownSpell lvl="1">dissonant whispers</knownSpell>
+<knownSpell lvl="1">arms of hadar</knownSpell>
+<knownSpell lvl="1">charm person</knownSpell>
+<knownSpell lvl="2">phantasmal force</knownSpell>
+<knownInvocation>Agonizing Blast</knownInvocation>
+<knownInvocation>Armor of Shadows</knownInvocation>
+
+<gp>25</gp>
+<pp>0</pp>
+<ep>0</ep>
+<sp>0</sp>
+<cp>0</cp>
+
+<armor>2</armor>
+<shield>0</shield>
+<weapon>3,12</weapon>
+<weaponQ>2,1</weaponQ>
+<tools>0,0</tools>
+
+<item>56,82,80,46,23,71,61,94,12</item>
+<itemQ>1,1,1,1,1,1,10,1,1</itemQ>
+<itemX>little bag of sand, small knife, scroll of pedigree, belt pouch</itemX>
+<name>Edward Vinx </name>
+<sexe>0</sexe>
+<age>25</age>
+<height>5.8 ft</height>
+<weight>160 lb.</weight>
+<alignment>5</alignment>
+<xp>0</xp>
+<eyes>white</eyes>
+<skin>Red</skin>
+<hair>Brown</hair>
+
+<appearance>Slim, average in height, 
+with a mysterious book one without a cover, without a title, and without a single written word.</appearance>
+<traits>Secrets and forgotten knowledge are worth any risk.
+Every problem has a solution if you’re clever enough to find it.
+I admire power, but I fear what it takes to truly obtain it.
+</traits>
+<ideals>Persistence: Fear may drive me to run, but I will always find a way to overcome my problems no matter the cost.</ideals>
+<bonds></bonds>
+<flaws>Obsession: fascination often blinds me to the risks they bring.
+Inexperienced: I've never had to fight for anything, I don't know how handle hardship.
+
+
+
+
+
+
+
+
+
+</flaws>
+
+<backstory>Summary:
+Edward Vinx – A man with an insatiable hunger for power and a relentless drive to uncover lost knowledge. He is obsessed with old stories and legends, even if chasing them puts his life at risk.
+
+Though a coward at heart, Edward refuses to let fear stop him entirely. Rather than facing danger head-on, he relies on his resourcefulness, cunning, and sharp mind to find another way.
+
+סיפור מלא:
+אדוארד ווינקס טיפלינד בן 25 נולד בעיר עשירה לבית עשיר לפני שנולד שני הוריו אמא טיפלינד מכשפת ואבא קוסם נולדו במעמד הממוצע והחליטו להתחיל קריירה בחיפוש אוצרות ובמהירות האלו את המצב הכלכלי שלהם לשמיים
+החליטו לעבור לעיר חדשה ועשירה ולקנות שטח משלהם בישביל לשמור את האוצרות שמצאו במקום בטוח ולגור שם
+הרבה אנשים לא אהבו את זה כי לא בטח בטיפלינד אבל אף אחד לא חושב לעשות משהו כי כולם שמעו את הכוח שיש להם
+אחרי מספר שניים של הרפתקות החליטו להביא ילד ראשון אלברט נולד קוסם ולמרות שלא נולד עם הקישרונות של מכשף עדיין בגיל מאוד צעיר הצליח לעשות קסמים שמכשפים רגילים לא היהו מצליחים לעשות 
+ההורים שלו ראו את הפוטנציאל שיש לאלברט והחליטו להיות קשים עליו במיוחד אבא שלו שגם היה קוסם
+ההורים שלו לא נתנו לו למצוא חברים לא כאילו גם היה יכול בתור טיפלינג בעיר שלו
+אחרי חמש שנים הוריו הביאו עוד ילד והוא נולד מכשף למרות שהירו גם היה קשים עליו לא כמו לאלברט וכבר מגיל קטן התחיל לשנוא את זה שהיהו קשים עליו יותר מאשר אחרים
+אחרי הרבה שנים ועוד אח שנולד מכשף 
+ההורים שלו היהו צריכים לחזור לקריירה שלהם בישביל לשלם למורים יקירים בישביל הילדים שלהם אלברט ידע שבישלבו יקחו את המורים הכי קשים וגרם לעצמו לעמיין שזה היה בגלל ששנאו אותו מאשר שרצו שילמד אצל המורים הכי טובים
+יום אחד אחרי שההורים שלו חזרו מהרפתקה החליט לגנוב את הדבר הכי יקר ומיוחד שיש בכספת שלהם בישביל לעצבן אותם הוא יתגנב והצליח לפתוח כספת עם קסמים מגנים מאוד חזקים שרק הקוסמים הכי טובים היהו יכולים לפתוח ושפתח את הכספת מצא עוצרות שיכולים לספק אותו לכל החיים
+אבל הוא ידע שזה לא הכול ואחרי מספר דקות של עבודה קשה הצליח למצוא ספר שהיה מוחבא מאוחרי מספר אינסופי של הגנות ושידע שזה הדבר הכי חשוב שיש להם והחליט לשרוף אותו אבל היה חייב לדעת מה היה כל כך מיוחד בו והחליט לפתוח אותו בפנים לא היה כלום לא מילים לא תמונות כלום הוא רצה לשרוף אותו אבל בדיוק שהתחיל את האש הוא שמע קולות
+קולות של אלים לפני אלים וראה דברים שלא היה יכול להבין והוא צעק ההורים שלו ששמעו את זה ישדגרו לכספת והסתכלו על הבן שלהם בעיניים וכל מה שראו זה גועל 
+גועל מי שהם ומה שעשו לו כל החיים שלו ולפני שהצילחו להגיד משהו הבן שלהם נעלם 
+עם הבינו שהוא חתם עסקה שתשנה את החיים שלו.</backstory>
+<allies></allies>
+<features></features>
+<treasure></treasure>
+
+</character>
+</builder>

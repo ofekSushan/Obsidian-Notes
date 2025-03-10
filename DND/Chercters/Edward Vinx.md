@@ -59,4 +59,4 @@ Though a coward at heart, Edward refuses to let fear stop him entirely. Rather t
 For 
 # [Character Builder](https://www.aidedd.org/dnd-builder/index.php)
 
-![[Edward-Vinx (4) 1.xml]]
+![[remote-blog/Assets/Edward-Vinx (4).xml]]
