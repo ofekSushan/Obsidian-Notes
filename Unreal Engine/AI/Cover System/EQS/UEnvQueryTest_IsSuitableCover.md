@@ -1,49 +1,66 @@
 
 
-The code is bellow this page if you just want it** 
+### **Important:**
 
-**Important:** Like most of this AI code, it relies on a blackboard. 
-See here for blackboard information.  
+This AI code relies on a blackboard.  
+See here for blackboard details.  
 // TODO: Write a blackboard information document.
 
-### Required Blackboard Keys:
+### **Required Blackboard Keys:**
 
-- **Vector** - LastSeenLocation
-- **Actor** - Hostile
-### Summary:
+- **Vector** - `LastSeenLocation`
+- **Actor** - `Hostile`
+### **Summary:**
 
-this task node is alot more comlictedt then close cover
+This task node is more complex than **Close Cover** as it assigns a score rather than a simple pass/fail. The higher the score, the better the cover.
 
-what it does is this it return a value the higer the value the more chnce the 
-### Result:
+### **How It Works:**
 
-The query returns **true** or **false** (no scoring).
-
-- **True**: The cover is within an acceptable distance.
-- **False**: It's either too close (inside a wall) or too far to be effective.
-
-### How It Works:
-
-1. The AI gets the **Hostile's** location.
+1. **FindCoverType** (look here for more info (TODO: Add a note for FindCoverType utility) )
     
-    - If the hostile is no longer visible, it uses **LastSeenLocation** instead.
+    - Determines if the cover is valid based on proximity to a wall.
+    - Any cover that is **not close to a wall** (left or right) or **not crouching cover** will return **false**.
     
-2. A **line trace** is performed from the query position to the hostile.
+2. **Set Cover Score (0 to 1, where 1 is best and 0 is worst)**
     
-    - If the trace **does not hit anything**, the cover is ignored (the hostile has a clear view).
-    - Otherwise, it checks if the distance is within the valid range:
-    
-    `if (Distance < CoverDistanceThreshold && Distance > CoverDistanceTooClose)`
-    
-    **Example values:**
-    - `float CoverDistanceThreshold = 120.0f`
-    - `float CoverDistanceTooClose = 30.0f`
-    - `float Distance = FVector::Distance(HitResult.Location, ItemLocation) 
-    `
-    This ensures the cover is not too close but still provides good protection.
+    - If the score is below **0.5**, the cover is considered **invalid**.
+    - Standing cover: Higher scores are given when closer to a wall.
+    - Crouching cover: Higher scores are given when slightly farther from the wall for better concealment.
 
-### Debugging:
+---
 
-Add this line inside the **for loop** to visualize the traces:
+### **Score Calculation Examples:**
 
-`DrawDebugLine(GetWorld(), ItemLocation, HitResult.Location, FColor::Green, false, 20.f);`
+#### **Example 1: Distance = 40, CoverDistanceThreshold = 120**
+
+- **Crouching Cover Score:**
+
+    `CoverScore = Distance / CoverDistanceThreshold;`
+    **Result:** `0.33`
+    
+- **Standing Cover Score:**
+    
+    `CoverScore = (CoverDistanceThreshold - Distance) / CoverDistanceThreshold;`
+    **Result:** `0.67`
+---
+
+#### **Example 2: Distance = 90, CoverDistanceThreshold = 120**
+
+- **Crouching Cover Score:**
+
+    `CoverScore = Distance / CoverDistanceThreshold;`
+    **Result:** `0.75`
+    
+- **Standing Cover Score:**
+  
+    `CoverScore = (CoverDistanceThreshold - Distance) / CoverDistanceThreshold;`
+    **Result:** `0.25`
+    
+
+
+
+now find cover type is diffrent because not like the other we dont just try to do i line trace to a location of the player we are doing a line trace to the head so he cant try to do a line trace to the feet we are doing it with the look for ("head") bone now of corse not every one has the exsect bone stracture witha "head" bone spaficly but if not it will just a simple line trace to the location of the player witch most of the time will be in the torso witch is good but not parfect 
+
+and of corse if he dosnt know the enmy locatino since he disbred he will just do it for the last seen location 
+
+or even if somewhy both are not working witch sould never heppends since he cant get inside this 
