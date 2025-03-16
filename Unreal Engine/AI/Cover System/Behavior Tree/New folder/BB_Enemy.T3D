@@ -1,0 +1,38 @@
+Begin Object Class=/Script/AIModule.BlackboardData Name="BB_Enemy" ExportPath="/Script/AIModule.BlackboardData'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy'"
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Bool Name="BlackboardKeyType_Bool_0" ExportPath="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Bool_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Int Name="BlackboardKeyType_Int_0" ExportPath="/Script/AIModule.BlackboardKeyType_Int'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Int_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_0" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Object_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKeyType_Object_1" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Object_1'"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_0" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Vector_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_2" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Vector_2'"
+   End Object
+   Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKeyType_Vector_3" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Vector_3'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Bool_0" ExportPath="/Script/AIModule.BlackboardKeyType_Bool'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Bool_0'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Int_0" ExportPath="/Script/AIModule.BlackboardKeyType_Int'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Int_0'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_0" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Object_0'"
+      BaseClass="/Script/CoreUObject.Class'/Script/Engine.Actor'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Object_1" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Object_1'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_0" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Vector_0'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_2" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Vector_2'"
+   End Object
+   Begin Object Name="BlackboardKeyType_Vector_3" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy:BlackboardKeyType_Vector_3'"
+   End Object
+   Keys(0)=(EntryName="SelfActor",KeyType="/Script/AIModule.BlackboardKeyType_Object'BlackboardKeyType_Object_0'")
+   Keys(1)=(EntryName="CoverLocation",KeyType="/Script/AIModule.BlackboardKeyType_Vector'BlackboardKeyType_Vector_0'")
+   Keys(2)=(EntryName="PatrolLocation",KeyType="/Script/AIModule.BlackboardKeyType_Vector'BlackboardKeyType_Vector_2'")
+   Keys(3)=(EntryName="PathPointIndex",KeyType="/Script/AIModule.BlackboardKeyType_Int'BlackboardKeyType_Int_0'")
+   Keys(4)=(EntryName="CombatMode",KeyType="/Script/AIModule.BlackboardKeyType_Bool'BlackboardKeyType_Bool_0'")
+   Keys(5)=(EntryName="Hostile",KeyType="/Script/AIModule.BlackboardKeyType_Object'BlackboardKeyType_Object_1'")
+   Keys(6)=(EntryName="LastSeenLocation",KeyType="/Script/AIModule.BlackboardKeyType_Vector'BlackboardKeyType_Vector_3'")
+End Object

@@ -1,0 +1,808 @@
+Begin Object Class=/Script/AIModule.BehaviorTree Name="BT_Enemy_Combat" ExportPath="/Script/AIModule.BehaviorTree'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat'"
+   Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraph Name="Behavior Tree" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraph'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree'"
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_CompositeDecorator Name="BehaviorTreeGraphNode_CompositeDecorator_12" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_CompositeDecorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_12'"
+         Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraph Name="CompositeDecorator" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraph'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_12.CompositeDecorator'"
+            Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraphNode_Logic Name="BehaviorTreeDecoratorGraphNode_Logic_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraphNode_Logic'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_12.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0'"
+            End Object
+         End Object
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_0'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_1'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_10" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_10'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_11" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_11'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_12" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_12'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_13" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_13'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_2'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_23" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_23'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_5" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_5'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_7" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_7'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_9" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_9'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_0'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_18" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_18'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_2'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_3" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_3'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_6" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_6'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_7" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_7'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_8" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_8'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root Name="BehaviorTreeGraphNode_Root_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Root_0'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_0'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_1'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_10" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_10'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_11" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_11'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_12" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_12'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_14" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_14'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_16" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_16'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_17" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_17'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_18" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_18'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_19" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_19'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_2'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_20" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_20'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_21" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_21'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_23" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_23'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_3" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_3'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_4" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_4'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_6" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_6'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_8" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_8'"
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_9" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_9'"
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_0" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Selector_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_12" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Selector_12'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_6" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_0" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_1" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_1'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_11" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_11'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_12" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_12'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_13" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_13'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_2" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_2'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_3" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_3'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_4" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_4'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_1" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_1'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_12" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_12'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_13" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_13'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_14" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_14'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTDecorator_ToCloseForComfort Name="BTDecorator_ToCloseForComfort_0" ExportPath="/Script/VRPrototype.BTDecorator_ToCloseForComfort'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_ToCloseForComfort_0'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTDecorator_ToCloseForComfort Name="BTDecorator_ToCloseForComfort_1" ExportPath="/Script/VRPrototype.BTDecorator_ToCloseForComfort'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_ToCloseForComfort_1'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTDecorator_ToCloseForComfort Name="BTDecorator_ToCloseForComfort_7" ExportPath="/Script/VRPrototype.BTDecorator_ToCloseForComfort'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_ToCloseForComfort_7'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_EmergeFromCover Name="BTTask_EmergeFromCover_0" ExportPath="/Script/VRPrototype.BTTask_EmergeFromCover'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EmergeFromCover_0'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_EnemyShooting Name="BTTask_EnemyShooting_0" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_0'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_EnemyShooting Name="BTTask_EnemyShooting_2" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_2'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_EnemyShooting Name="BTTask_EnemyShooting_4" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_4'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_EnemyShooting Name="BTTask_EnemyShooting_7" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_7'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_EnemyShooting Name="BTTask_EnemyShooting_9" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_9'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_GetInCover Name="BTTask_GetInCover_0" ExportPath="/Script/VRPrototype.BTTask_GetInCover'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_GetInCover_0'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_1" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_1'"
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKey_Object_0" Archetype="/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Object_0'" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_1.BlackboardKey_Object_0'"
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKey_Vector" Archetype="/Script/AIModule.BlackboardKeyType_Vector'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Vector'" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_1.BlackboardKey_Vector'"
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_2" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_2'"
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKey_Object_0" Archetype="/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Object_0'" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_2.BlackboardKey_Object_0'"
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKey_Vector" Archetype="/Script/AIModule.BlackboardKeyType_Vector'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Vector'" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_2.BlackboardKey_Vector'"
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_5" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_5'"
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKey_Object_0" Archetype="/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Object_0'" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_5.BlackboardKey_Object_0'"
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKey_Vector" Archetype="/Script/AIModule.BlackboardKeyType_Vector'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Vector'" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_5.BlackboardKey_Vector'"
+      End Object
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_Reloading Name="BTTask_Reloading_0" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_0'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_Reloading Name="BTTask_Reloading_1" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_1'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_Reloading Name="BTTask_Reloading_2" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_2'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_Reloading Name="BTTask_Reloading_3" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_3'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_Reloading Name="BTTask_Reloading_4" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_4'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_RunEQSQuery Name="BTTask_RunEQSQuery_8" ExportPath="/Script/AIModule.BTTask_RunEQSQuery'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_RunEQSQuery_8'"
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="EQSQueryBlackboardKey_Object_0" Archetype="/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_RunEQSQuery:EQSQueryBlackboardKey_Object_0'" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_RunEQSQuery_8.EQSQueryBlackboardKey_Object_0'"
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="None_Object_1" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_RunEQSQuery_8.None_Object_1'"
+      End Object
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_SearchEnemy Name="BTTask_SearchEnemy_0" ExportPath="/Script/VRPrototype.BTTask_SearchEnemy'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_SearchEnemy_0'"
+   End Object
+   Begin Object Class=/Script/VRPrototype.BTTask_SearchEnemy Name="BTTask_SearchEnemy_3" ExportPath="/Script/VRPrototype.BTTask_SearchEnemy'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_SearchEnemy_3'"
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_Wait Name="BTTask_Wait_1" ExportPath="/Script/AIModule.BTTask_Wait'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Wait_1'"
+   End Object
+   Begin Object Name="Behavior Tree" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraph'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree'"
+      Begin Object Name="BehaviorTreeGraphNode_CompositeDecorator_12" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_CompositeDecorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_12'"
+         Begin Object Name="CompositeDecorator" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraph'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_12.CompositeDecorator'"
+            Begin Object Name="BehaviorTreeDecoratorGraphNode_Logic_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraphNode_Logic'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_CompositeDecorator_12.CompositeDecorator.BehaviorTreeDecoratorGraphNode_Logic_0'"
+               NodeGuid=39E5CCAA4C0F6639E92859AD23C9373B
+               CustomProperties Pin (PinId=C2CF13AB49541906CDE13CA5F21CE79D,PinName="In",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            Nodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraphNode_Logic'BehaviorTreeDecoratorGraphNode_Logic_0'"
+            GraphGuid=44BE05C2427BA4D06367A58FFD0E2C59
+         End Object
+         BoundGraph="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraph'CompositeDecorator'"
+         NodeGuid=751BD71B453508688206E997A2AB090D
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_0'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'"
+         CopySubNodeIndex=21
+         NodePosX=-1136
+         NodePosY=-496
+         NodeGuid=7E0C431F4B33904972639ABDF9060D95
+         CustomProperties Pin (PinId=53D0FC984DCCCF5866D2E38314E603EC,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_9 F6B682254840952C289356919E61E75E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=01ACFCFF4CC49669231D05BE2E525FB7,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_16 D2B6956F424F2A498AAD46B4C5F3E735,BehaviorTreeGraphNode_Task_17 F1D5022A4DF1994AB9494F80007FE612,BehaviorTreeGraphNode_Task_2 A5450C8E407ED7C0CBD185B42625C4BD,BehaviorTreeGraphNode_Task_20 DB8BE4EC4C5F56FF836EE6B0856136BB,BehaviorTreeGraphNode_Composite_23 3B898749462E4C03E74D709B17213512,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_1'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_2'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_1'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_2'"
+         NodePosX=-1040
+         NodePosY=176
+         NodeGuid=C0FC082343154159E128B9B107AEF621
+         CustomProperties Pin (PinId=A21EE53B4183F87CF2B43BBAE0AE19E0,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_23 E0225BEE4B08045AB94FB0B006B4BFE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=63203F36447BB9D96BBB5B8386583CA2,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_6 DB8BE4EC4C5F56FF836EE6B0856136BB,BehaviorTreeGraphNode_Task_0 2DB824B4441D36145C65C5A3F6EB882D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_10" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_10'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_3'"
+         CopySubNodeIndex=16
+         NodePosX=-272
+         NodePosY=208
+         NodeGuid=D2B2620A4D73745952618D9E98923DC0
+         CustomProperties Pin (PinId=910E774C496C898E2DC87F817ED41B13,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_23 E0225BEE4B08045AB94FB0B006B4BFE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=55857DE14C0A1CE2631D549E8CC13C45,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_12 0AF140E8496E98F3D182F78F0A2CF16B,BehaviorTreeGraphNode_Task_9 3E2338A0415D70C43833819D4C162DDE,BehaviorTreeGraphNode_Task_14 36A9D4194EE7521A4F12D68425F59A64,BehaviorTreeGraphNode_Task_21 C7544FFE499518B75A73A9968AA502B4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_11" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_11'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_6'"
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_12'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_6'"
+         CopySubNodeIndex=2
+         NodePosX=512
+         NodePosY=-688
+         NodeGuid=A31F197A4ABF564FCC19B1BD0835ED3C
+         CustomProperties Pin (PinId=4A312CE842664CA4DBE7CCBFB0B6385A,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_9 F6B682254840952C289356919E61E75E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4888671C4DBE9BAF9C122BB152A094C0,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 8679EB94436E991C77A21693B30519C8,BehaviorTreeGraphNode_Composite_13 30CE659F4F826155ACBA77823C842C51,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_12" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_12'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_7'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_12'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_7'"
+         CopySubNodeIndex=3
+         NodePosX=288
+         NodePosY=-448
+         NodeGuid=EE81FC974BB088B293ED379909B0DF44
+         CustomProperties Pin (PinId=8679EB94436E991C77A21693B30519C8,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_11 4888671C4DBE9BAF9C122BB152A094C0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1AB5CB9E485F7C131BC806A83655412B,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_4 DB8BE4EC4C5F56FF836EE6B0856136BB,BehaviorTreeGraphNode_Task_23 D8248EF844F27BC5E402AA94AB773B3E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_13" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_13'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_8'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_13'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_8'"
+         CopySubNodeIndex=4
+         NodePosX=1008
+         NodePosY=-448
+         NodeGuid=3339E20F44DE2AF71D8A21A8E0FD2A38
+         CustomProperties Pin (PinId=30CE659F4F826155ACBA77823C842C51,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_11 4888671C4DBE9BAF9C122BB152A094C0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=9D7DE0104EF858AD941A20A1D8B8257E,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_18 36A9D4194EE7521A4F12D68425F59A64,BehaviorTreeGraphNode_Task_11 C7544FFE499518B75A73A9968AA502B4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_2'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_18'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_2'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_18'"
+         NodePosX=-576
+         NodePosY=224
+         NodeGuid=9D7176D143DD8D04EB986A865268669A
+         CustomProperties Pin (PinId=D145D3294CB52209FE4B638760D1E821,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_23 E0225BEE4B08045AB94FB0B006B4BFE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D4CB1D05488D461E35535B8263917D16,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_3 2DB824B4441D36145C65C5A3F6EB882D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_23" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_23'"
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'"
+         CopySubNodeIndex=22
+         NodePosX=-528
+         NodePosY=-192
+         NodeGuid=048CE214489BD5254482149D5D1D2BBA
+         CustomProperties Pin (PinId=3B898749462E4C03E74D709B17213512,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 01ACFCFF4CC49669231D05BE2E525FB7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E0225BEE4B08045AB94FB0B006B4BFE3,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 A21EE53B4183F87CF2B43BBAE0AE19E0,BehaviorTreeGraphNode_Composite_2 D145D3294CB52209FE4B638760D1E821,BehaviorTreeGraphNode_Composite_10 910E774C496C898E2DC87F817ED41B13,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_5" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_5'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_0'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_11'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_0'"
+         NodePosX=-2304
+         NodePosY=-560
+         NodeGuid=FD8B229944AB48AE1C5981980F6B247E
+         CustomProperties Pin (PinId=A21EE53B4183F87CF2B43BBAE0AE19E0,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_9 F6B682254840952C289356919E61E75E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=63203F36447BB9D96BBB5B8386583CA2,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_19 DB8BE4EC4C5F56FF836EE6B0856136BB,BehaviorTreeGraphNode_Task_10 2DB824B4441D36145C65C5A3F6EB882D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_7" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_7'"
+         Decorators(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_3'"
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_0'"
+         SubNodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_3'"
+         NodePosX=-384
+         NodePosY=-592
+         NodeGuid=70511DA04F7B1ED0FA275487A1E2ADD6
+         CustomProperties Pin (PinId=A21EE53B4183F87CF2B43BBAE0AE19E0,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_9 F6B682254840952C289356919E61E75E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=63203F36447BB9D96BBB5B8386583CA2,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_1 DB8BE4EC4C5F56FF836EE6B0856136BB,BehaviorTreeGraphNode_Task_8 D8248EF844F27BC5E402AA94AB773B3E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_9" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Composite_9'"
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+         NodePosX=-1024
+         NodePosY=-720
+         NodeGuid=80E67E86459065558E76658A2DDD5C9C
+         CustomProperties Pin (PinId=ED4BBA3C42B289066DDCE297CB88D553,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Root_0 8318420D4ADA68BFDA9A4F8C17054D0D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F6B682254840952C289356919E61E75E,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 A21EE53B4183F87CF2B43BBAE0AE19E0,BehaviorTreeGraphNode_Composite_0 53D0FC984DCCCF5866D2E38314E603EC,BehaviorTreeGraphNode_Composite_7 A21EE53B4183F87CF2B43BBAE0AE19E0,BehaviorTreeGraphNode_Composite_11 4A312CE842664CA4DBE7CCBFB0B6385A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_0'"
+         ClassData=(ClassName="BTDecorator_ToCloseForComfort")
+         NodeInstance="/Script/VRPrototype.BTDecorator_ToCloseForComfort'BT_Enemy_Combat:BTDecorator_ToCloseForComfort_1'"
+         NodeGuid=E2BF8FE442332CF3CDB261B39FDD326B
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_18" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_18'"
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance="/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_1'"
+         NodeGuid=329764EC482D83BFF8AF9DA1E7426052
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_2'"
+         ClassData=(ClassName="BTDecorator_ToCloseForComfort")
+         NodeInstance="/Script/VRPrototype.BTDecorator_ToCloseForComfort'BT_Enemy_Combat:BTDecorator_ToCloseForComfort_0'"
+         NodeGuid=26FA310F48A7674DF3DC0EB2D5B63ABE
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_3" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_3'"
+         ClassData=(ClassName="BTDecorator_ToCloseForComfort")
+         NodeInstance="/Script/VRPrototype.BTDecorator_ToCloseForComfort'BT_Enemy_Combat:BTDecorator_ToCloseForComfort_7'"
+         NodeGuid=BBE0CAE94E9E54040CD5009B8E4FCAC3
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_6" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_6'"
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance="/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_12'"
+         CopySubNodeIndex=2
+         NodeGuid=09B2C06C417CABF49975E3861540A165
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_7" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_7'"
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance="/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_13'"
+         CopySubNodeIndex=3
+         NodeGuid=9665DB42469857800AD6A4800173BFAF
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_8" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Decorator_8'"
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance="/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_14'"
+         CopySubNodeIndex=4
+         NodeGuid=FD6FAD9B4EBD74DE1DA06CB7B8F99444
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Root_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Root_0'"
+         BlackboardAsset="/Script/AIModule.BlackboardData'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy'"
+         NodePosX=-1008
+         NodePosY=-1024
+         NodeGuid=D3FF63D84CDF5358E48D6DAE959D10CA
+         CustomProperties Pin (PinId=8318420D4ADA68BFDA9A4F8C17054D0D,PinName="In",Direction="EGPD_Output",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_9 ED4BBA3C42B289066DDCE297CB88D553,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_0" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_0'"
+         ClassData=(ClassName="BTTask_EnemyShooting")
+         NodeInstance="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_2'"
+         CopySubNodeIndex=1
+         NodePosX=-1376
+         NodePosY=464
+         NodeGuid=3CC165F8419BF30CE171B59AADAC6F9E
+         CustomProperties Pin (PinId=2DB824B4441D36145C65C5A3F6EB882D,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 63203F36447BB9D96BBB5B8386583CA2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_1" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_1'"
+         ClassData=(ClassName="BTTask_Reloading")
+         NodeInstance="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_3'"
+         CopySubNodeIndex=2
+         NodePosX=-512
+         NodePosY=-336
+         NodeGuid=03E695EC4BF241DAE5B46F8E2C533DB0
+         CustomProperties Pin (PinId=DB8BE4EC4C5F56FF836EE6B0856136BB,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_7 63203F36447BB9D96BBB5B8386583CA2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_10" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_10'"
+         ClassData=(ClassName="BTTask_EnemyShooting")
+         NodeInstance="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_0'"
+         NodePosX=-2352
+         NodePosY=-192
+         NodeGuid=B22881624D5FCD4C021C2C8A99A10502
+         CustomProperties Pin (PinId=2DB824B4441D36145C65C5A3F6EB882D,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 63203F36447BB9D96BBB5B8386583CA2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_11" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_11'"
+         ClassData=(ClassName="BTTask_SearchEnemy")
+         NodeInstance="/Script/VRPrototype.BTTask_SearchEnemy'BT_Enemy_Combat:BTTask_SearchEnemy_3'"
+         CopySubNodeIndex=6
+         NodePosX=1216
+         NodePosY=-256
+         NodeGuid=4836E9694B37EE95F2A1F0B046D6FF4A
+         CustomProperties Pin (PinId=C7544FFE499518B75A73A9968AA502B4,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 9D7DE0104EF858AD941A20A1D8B8257E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_12" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_12'"
+         ClassData=(ClassName="BTTask_EmergeFromCover")
+         NodeInstance="/Script/VRPrototype.BTTask_EmergeFromCover'BT_Enemy_Combat:BTTask_EmergeFromCover_0'"
+         CopySubNodeIndex=24
+         NodePosX=-400
+         NodePosY=480
+         NodeGuid=1572193C4931D927CDB21F83AEE35C35
+         CustomProperties Pin (PinId=0AF140E8496E98F3D182F78F0A2CF16B,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 55857DE14C0A1CE2631D549E8CC13C45,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_14" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_14'"
+         ClassData=(ClassName="BTTask_MoveTo")
+         NodeInstance="/Script/AIModule.BTTask_MoveTo'BT_Enemy_Combat:BTTask_MoveTo_2'"
+         NodePosX=80
+         NodePosY=480
+         NodeGuid=F0A784D64BB5940742919B8ACDF0F9BD
+         CustomProperties Pin (PinId=36A9D4194EE7521A4F12D68425F59A64,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 55857DE14C0A1CE2631D549E8CC13C45,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_16" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_16'"
+         ClassData=(ClassName="BTTask_RunEQSQuery")
+         NodeInstance="/Script/AIModule.BTTask_RunEQSQuery'BT_Enemy_Combat:BTTask_RunEQSQuery_8'"
+         NodePosX=-1728
+         NodePosY=-432
+         NodeGuid=E2A2331D4E62F444B102DBB07258AF7F
+         CustomProperties Pin (PinId=D2B6956F424F2A498AAD46B4C5F3E735,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 01ACFCFF4CC49669231D05BE2E525FB7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_17" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_17'"
+         ClassData=(ClassName="BTTask_MoveTo")
+         NodeInstance="/Script/AIModule.BTTask_MoveTo'BT_Enemy_Combat:BTTask_MoveTo_1'"
+         CopySubNodeIndex=1
+         NodePosX=-1568
+         NodePosY=-304
+         NodeGuid=A203686C42D0E55041B340BA9FC36C9C
+         CustomProperties Pin (PinId=F1D5022A4DF1994AB9494F80007FE612,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 01ACFCFF4CC49669231D05BE2E525FB7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_18" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_18'"
+         ClassData=(ClassName="BTTask_MoveTo")
+         NodeInstance="/Script/AIModule.BTTask_MoveTo'BT_Enemy_Combat:BTTask_MoveTo_5'"
+         CopySubNodeIndex=5
+         NodePosX=992
+         NodePosY=-256
+         NodeGuid=4F0245CB48DFE41F19DF858720922B19
+         CustomProperties Pin (PinId=36A9D4194EE7521A4F12D68425F59A64,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 9D7DE0104EF858AD941A20A1D8B8257E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_19" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_19'"
+         ClassData=(ClassName="BTTask_Reloading")
+         NodeInstance="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_1'"
+         CopySubNodeIndex=1
+         NodePosX=-2528
+         NodePosY=-192
+         NodeGuid=9A2165EC48A73D6D7F0ED78956134226
+         CustomProperties Pin (PinId=DB8BE4EC4C5F56FF836EE6B0856136BB,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 63203F36447BB9D96BBB5B8386583CA2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_2" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_2'"
+         ClassData=(ClassName="BTTask_GetInCover")
+         NodeInstance="/Script/VRPrototype.BTTask_GetInCover'BT_Enemy_Combat:BTTask_GetInCover_0'"
+         NodePosX=-1472
+         NodePosY=-192
+         NodeGuid=E5DE3E8743BE8952DD9E888C9304CB02
+         CustomProperties Pin (PinId=A5450C8E407ED7C0CBD185B42625C4BD,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 01ACFCFF4CC49669231D05BE2E525FB7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_20" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_20'"
+         ClassData=(ClassName="BTTask_Reloading")
+         NodeInstance="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_4'"
+         CopySubNodeIndex=1
+         NodePosX=-768
+         NodePosY=-192
+         NodeGuid=3E611F09434AB865388EACA8A386AC24
+         CustomProperties Pin (PinId=DB8BE4EC4C5F56FF836EE6B0856136BB,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 01ACFCFF4CC49669231D05BE2E525FB7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_21" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_21'"
+         ClassData=(ClassName="BTTask_SearchEnemy")
+         NodeInstance="/Script/VRPrototype.BTTask_SearchEnemy'BT_Enemy_Combat:BTTask_SearchEnemy_0'"
+         NodePosX=368
+         NodePosY=480
+         NodeGuid=2C5BDE9847F4BBE8F491EA97A8390210
+         CustomProperties Pin (PinId=C7544FFE499518B75A73A9968AA502B4,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 55857DE14C0A1CE2631D549E8CC13C45,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_23" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_23'"
+         ClassData=(ClassName="BTTask_EnemyShooting")
+         NodeInstance="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_7'"
+         NodePosX=432
+         NodePosY=-240
+         NodeGuid=6CD887B14FA5682F92C1478735588DE4
+         CustomProperties Pin (PinId=D8248EF844F27BC5E402AA94AB773B3E,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 1AB5CB9E485F7C131BC806A83655412B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_3" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_3'"
+         ClassData=(ClassName="BTTask_EnemyShooting")
+         NodeInstance="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_4'"
+         NodePosX=-864
+         NodePosY=480
+         NodeGuid=01C700544F8BDF0B0DBDF192532D25C1
+         CustomProperties Pin (PinId=2DB824B4441D36145C65C5A3F6EB882D,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_2 D4CB1D05488D461E35535B8263917D16,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_4" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_4'"
+         ClassData=(ClassName="BTTask_Reloading")
+         NodeInstance="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_2'"
+         CopySubNodeIndex=1
+         NodePosX=256
+         NodePosY=-240
+         NodeGuid=CCC241FF424D1FE1EC6C65924A7F37D6
+         CustomProperties Pin (PinId=DB8BE4EC4C5F56FF836EE6B0856136BB,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 1AB5CB9E485F7C131BC806A83655412B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_6" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_6'"
+         ClassData=(ClassName="BTTask_Reloading")
+         NodeInstance="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_0'"
+         CopySubNodeIndex=2
+         NodePosX=-1584
+         NodePosY=464
+         NodeGuid=0750F1804A04E3F3ABB072AB56BB19DC
+         CustomProperties Pin (PinId=DB8BE4EC4C5F56FF836EE6B0856136BB,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 63203F36447BB9D96BBB5B8386583CA2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_8" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_8'"
+         ClassData=(ClassName="BTTask_EnemyShooting")
+         NodeInstance="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_9'"
+         NodePosX=-304
+         NodePosY=-336
+         NodeGuid=EFBE43A1430A9474892D15A9DF774961
+         CustomProperties Pin (PinId=D8248EF844F27BC5E402AA94AB773B3E,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_7 63203F36447BB9D96BBB5B8386583CA2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_9" ExportPath="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree.BehaviorTreeGraphNode_Task_9'"
+         ClassData=(ClassName="BTTask_Wait")
+         NodeInstance="/Script/AIModule.BTTask_Wait'BT_Enemy_Combat:BTTask_Wait_1'"
+         NodePosX=-96
+         NodePosY=480
+         NodeGuid=574ECF60427C4FEFB641D3BD1A457F5E
+         CustomProperties Pin (PinId=3E2338A0415D70C43833819D4C162DDE,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 55857DE14C0A1CE2631D549E8CC13C45,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      ModCounter=2050
+      bIsUsingModCounter=True
+      GraphVersion=3
+      Nodes(0)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'BehaviorTreeGraphNode_Root_0'"
+      Nodes(1)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_9'"
+      Nodes(2)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_16'"
+      Nodes(3)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_5'"
+      Nodes(4)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_10'"
+      Nodes(5)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_0'"
+      Nodes(6)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_23'"
+      Nodes(7)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_12'"
+      Nodes(8)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_2'"
+      Nodes(9)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_17'"
+      Nodes(10)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_10'"
+      Nodes(11)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_3'"
+      Nodes(12)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_20'"
+      Nodes(13)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_2'"
+      Nodes(14)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_9'"
+      Nodes(15)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_14'"
+      Nodes(16)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_21'"
+      Nodes(17)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_19'"
+      Nodes(18)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_1'"
+      Nodes(19)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_0'"
+      Nodes(20)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_6'"
+      Nodes(21)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_4'"
+      Nodes(22)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_11'"
+      Nodes(23)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_12'"
+      Nodes(24)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_13'"
+      Nodes(25)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_18'"
+      Nodes(26)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_11'"
+      Nodes(27)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'BehaviorTreeGraphNode_Composite_7'"
+      Nodes(28)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_1'"
+      Nodes(29)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_23'"
+      Nodes(30)="/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'BehaviorTreeGraphNode_Task_8'"
+      SubGraphs(0)="/Script/BehaviorTreeEditor.BehaviorTreeDecoratorGraph'BehaviorTreeGraphNode_CompositeDecorator_12.CompositeDecorator'"
+      GraphGuid=81E0837C406B2266D236C1837BA2D4B7
+   End Object
+   Begin Object Name="BTComposite_Selector_0" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Selector_0'"
+      Children(0)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_1'",Decorators=("/Script/VRPrototype.BTDecorator_ToCloseForComfort'BT_Enemy_Combat:BTDecorator_ToCloseForComfort_0'"))
+      Children(1)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_2'",Decorators=("/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_1'"))
+      Children(2)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_3'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'"
+   End Object
+   Begin Object Name="BTComposite_Selector_12" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Selector_12'"
+      Children(0)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_12'",Decorators=("/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_13'"))
+      Children(1)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_13'",Decorators=("/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_14'"))
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTComposite_Selector_6" ExportPath="/Script/AIModule.BTComposite_Selector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Selector_6'"
+      Children(0)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_11'",Decorators=("/Script/VRPrototype.BTDecorator_ToCloseForComfort'BT_Enemy_Combat:BTDecorator_ToCloseForComfort_1'"))
+      Children(1)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'")
+      Children(2)=(ChildComposite="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_0'",Decorators=("/Script/VRPrototype.BTDecorator_ToCloseForComfort'BT_Enemy_Combat:BTDecorator_ToCloseForComfort_7'"))
+      Children(3)=(ChildComposite="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_12'",Decorators=("/Script/AIModule.BTDecorator_Blackboard'BT_Enemy_Combat:BTDecorator_Blackboard_12'"))
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_0" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_0'"
+      Children(0)=(ChildTask="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_3'")
+      Children(1)=(ChildTask="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_9'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_1" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_1'"
+      Children(0)=(ChildTask="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_0'")
+      Children(1)=(ChildTask="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_2'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_11" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_11'"
+      Children(0)=(ChildTask="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_1'")
+      Children(1)=(ChildTask="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_0'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_12" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_12'"
+      Children(0)=(ChildTask="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_2'")
+      Children(1)=(ChildTask="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_7'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_12'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_13" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_13'"
+      Children(0)=(ChildTask="/Script/AIModule.BTTask_MoveTo'BT_Enemy_Combat:BTTask_MoveTo_5'")
+      Children(1)=(ChildTask="/Script/VRPrototype.BTTask_SearchEnemy'BT_Enemy_Combat:BTTask_SearchEnemy_3'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_12'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_2" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_2'"
+      Children(0)=(ChildTask="/Script/VRPrototype.BTTask_EnemyShooting'BT_Enemy_Combat:BTTask_EnemyShooting_4'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_3" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_3'"
+      Children(0)=(ChildTask="/Script/VRPrototype.BTTask_EmergeFromCover'BT_Enemy_Combat:BTTask_EmergeFromCover_0'")
+      Children(1)=(ChildTask="/Script/AIModule.BTTask_Wait'BT_Enemy_Combat:BTTask_Wait_1'")
+      Children(2)=(ChildTask="/Script/AIModule.BTTask_MoveTo'BT_Enemy_Combat:BTTask_MoveTo_2'")
+      Children(3)=(ChildTask="/Script/VRPrototype.BTTask_SearchEnemy'BT_Enemy_Combat:BTTask_SearchEnemy_0'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'"
+   End Object
+   Begin Object Name="BTComposite_Sequence_4" ExportPath="/Script/AIModule.BTComposite_Sequence'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTComposite_Sequence_4'"
+      Children(0)=(ChildTask="/Script/AIModule.BTTask_RunEQSQuery'BT_Enemy_Combat:BTTask_RunEQSQuery_8'")
+      Children(1)=(ChildTask="/Script/AIModule.BTTask_MoveTo'BT_Enemy_Combat:BTTask_MoveTo_1'")
+      Children(2)=(ChildTask="/Script/VRPrototype.BTTask_GetInCover'BT_Enemy_Combat:BTTask_GetInCover_0'")
+      Children(3)=(ChildTask="/Script/VRPrototype.BTTask_Reloading'BT_Enemy_Combat:BTTask_Reloading_4'")
+      Children(4)=(ChildComposite="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_1" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_1'"
+      CachedDescription="Hostile is Is Set"
+      BlackboardKey=(SelectedKeyName="hostile")
+      FlowAbortMode=LowerPriority
+      NodeName="Can See Enemy"
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'"
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_12" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_12'"
+      CachedDescription="CoverLocation is Is Not Set"
+      OperationType=1
+      BasicOperation=NotSet
+      BlackboardKey=(SelectedKeyName="CoverLocation")
+      FlowAbortMode=Both
+      NodeName="No Cover"
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_13" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_13'"
+      CachedDescription="Hostile is Is Set"
+      BlackboardKey=(SelectedKeyName="hostile")
+      FlowAbortMode=LowerPriority
+      NodeName="Can See Enemy"
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_12'"
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_14" ExportPath="/Script/AIModule.BTDecorator_Blackboard'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_Blackboard_14'"
+      CachedDescription="Hostile is Is Not Set"
+      OperationType=1
+      BasicOperation=NotSet
+      BlackboardKey=(SelectedKeyName="hostile")
+      FlowAbortMode=Self
+      NodeName="Can\'t See Enemy"
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_12'"
+   End Object
+   Begin Object Name="BTDecorator_ToCloseForComfort_0" ExportPath="/Script/VRPrototype.BTDecorator_ToCloseForComfort'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_ToCloseForComfort_0'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_0'"
+   End Object
+   Begin Object Name="BTDecorator_ToCloseForComfort_1" ExportPath="/Script/VRPrototype.BTDecorator_ToCloseForComfort'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_ToCloseForComfort_1'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      FlowAbortMode=LowerPriority
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTDecorator_ToCloseForComfort_7" ExportPath="/Script/VRPrototype.BTDecorator_ToCloseForComfort'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTDecorator_ToCloseForComfort_7'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      FlowAbortMode=LowerPriority
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Selector'BT_Enemy_Combat:BTComposite_Selector_6'"
+   End Object
+   Begin Object Name="BTTask_EmergeFromCover_0" ExportPath="/Script/VRPrototype.BTTask_EmergeFromCover'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EmergeFromCover_0'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_3'"
+   End Object
+   Begin Object Name="BTTask_EnemyShooting_0" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_0'"
+      Hostile=(SelectedKeyName="Hostile")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_11'"
+   End Object
+   Begin Object Name="BTTask_EnemyShooting_2" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_2'"
+      Hostile=(SelectedKeyName="Hostile")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_1'"
+   End Object
+   Begin Object Name="BTTask_EnemyShooting_4" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_4'"
+      Hostile=(SelectedKeyName="Hostile")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_2'"
+   End Object
+   Begin Object Name="BTTask_EnemyShooting_7" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_7'"
+      Hostile=(SelectedKeyName="Hostile")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_12'"
+   End Object
+   Begin Object Name="BTTask_EnemyShooting_9" ExportPath="/Script/VRPrototype.BTTask_EnemyShooting'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_EnemyShooting_9'"
+      Hostile=(SelectedKeyName="Hostile")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_0'"
+   End Object
+   Begin Object Name="BTTask_GetInCover_0" ExportPath="/Script/VRPrototype.BTTask_GetInCover'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_GetInCover_0'"
+      CoverLocation=(SelectedKeyName="CoverLocation")
+      Hostile=(SelectedKeyName="hostile")
+      LastSeenLocation=(SelectedKeyName="LastSeenLocation")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'"
+   End Object
+   Begin Object Name="BTTask_MoveTo_1" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_1'"
+      Begin Object Name="BlackboardKey_Object_0" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_1.BlackboardKey_Object_0'"
+      End Object
+      Begin Object Name="BlackboardKey_Vector" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_1.BlackboardKey_Vector'"
+      End Object
+      bReachTestIncludesAgentRadius=False
+      bReachTestIncludesGoalRadius=False
+      bStopOnOverlapNeedsUpdate=False
+      BlackboardKey=(SelectedKeyName="CoverLocation")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'"
+   End Object
+   Begin Object Name="BTTask_MoveTo_2" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_2'"
+      Begin Object Name="BlackboardKey_Object_0" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_2.BlackboardKey_Object_0'"
+      End Object
+      Begin Object Name="BlackboardKey_Vector" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_2.BlackboardKey_Vector'"
+      End Object
+      bStopOnOverlapNeedsUpdate=False
+      BlackboardKey=(SelectedKeyName="LastSeenLocation")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_3'"
+   End Object
+   Begin Object Name="BTTask_MoveTo_5" ExportPath="/Script/AIModule.BTTask_MoveTo'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_5'"
+      Begin Object Name="BlackboardKey_Object_0" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_5.BlackboardKey_Object_0'"
+      End Object
+      Begin Object Name="BlackboardKey_Vector" ExportPath="/Script/AIModule.BlackboardKeyType_Vector'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_MoveTo_5.BlackboardKey_Vector'"
+      End Object
+      bStopOnOverlapNeedsUpdate=False
+      BlackboardKey=(SelectedKeyName="LastSeenLocation")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_13'"
+   End Object
+   Begin Object Name="BTTask_Reloading_0" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_0'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_1'"
+   End Object
+   Begin Object Name="BTTask_Reloading_1" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_1'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_11'"
+   End Object
+   Begin Object Name="BTTask_Reloading_2" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_2'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_12'"
+   End Object
+   Begin Object Name="BTTask_Reloading_3" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_3'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_0'"
+   End Object
+   Begin Object Name="BTTask_Reloading_4" ExportPath="/Script/VRPrototype.BTTask_Reloading'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Reloading_4'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'"
+   End Object
+   Begin Object Name="BTTask_RunEQSQuery_8" ExportPath="/Script/AIModule.BTTask_RunEQSQuery'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_RunEQSQuery_8'"
+      Begin Object Name="EQSQueryBlackboardKey_Object_0" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_RunEQSQuery_8.EQSQueryBlackboardKey_Object_0'"
+      End Object
+      Begin Object Name="None_Object_1" ExportPath="/Script/AIModule.BlackboardKeyType_Object'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_RunEQSQuery_8.None_Object_1'"
+         BaseClass="/Script/CoreUObject.Class'/Script/AIModule.EnvQuery'"
+      End Object
+      EQSRequest=(QueryTemplate="/Script/AIModule.EnvQuery'/Game/Blueprints/Enemies/AI/EQ_Cover.EQ_Cover'",EQSQueryBlackboardKey=())
+      BlackboardKey=(SelectedKeyName="CoverLocation")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_4'"
+   End Object
+   Begin Object Name="BTTask_SearchEnemy_0" ExportPath="/Script/VRPrototype.BTTask_SearchEnemy'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_SearchEnemy_0'"
+      CombatMode=(SelectedKeyName="CombatMode")
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_3'"
+   End Object
+   Begin Object Name="BTTask_SearchEnemy_3" ExportPath="/Script/VRPrototype.BTTask_SearchEnemy'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_SearchEnemy_3'"
+      BlackboardKey=(SelectedKeyName="SelfActor")
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_13'"
+   End Object
+   Begin Object Name="BTTask_Wait_1" ExportPath="/Script/AIModule.BTTask_Wait'/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:BTTask_Wait_1'"
+      WaitTime=1.500000
+      TreeAsset="/Script/AIModule.BehaviorTree'BT_Enemy_Combat'"
+      ParentNode="/Script/AIModule.BTComposite_Sequence'BT_Enemy_Combat:BTComposite_Sequence_3'"
+   End Object
+   RootNode="/Script/AIModule.BTComposite_Selector'BTComposite_Selector_6'"
+   BTGraph="/Script/BehaviorTreeEditor.BehaviorTreeGraph'Behavior Tree'"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Blueprints/Enemies/AI/BT_Enemy_Combat.BT_Enemy_Combat:Behavior Tree",SavedViewOffset=(X=-2004.533061,Y=-504.127352),SavedZoomAmount=1.000000)
+   BlackboardAsset="/Script/AIModule.BlackboardData'/Game/Blueprints/Enemies/AI/BB_Enemy.BB_Enemy'"
+End Object
