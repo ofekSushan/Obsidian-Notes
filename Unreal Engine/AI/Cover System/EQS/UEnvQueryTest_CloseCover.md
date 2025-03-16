@@ -1,41 +1,61 @@
 
+The code is bellow this page if you just want it** 
 
-the code is bellow this page if you jsut want it 
+**Important:** Like most of this AI code, it relies on a blackboard. 
+See here for blackboard information.  
+// TODO: Write a blackboard information document.
 
-IMPotent like most of this ai code it releis on blackbord see here for black bord infomation
-// todo write a black bord infomation losser
+### Required Blackboard Keys:
+
+- **Vector** - LastSeenLocation
+- **Actor** - Hostile
+### Summary:
+
+This task node checks whether a cover point is too close to a wall to be viable, or too far to provide good cover.
+### Result:
+
+The query returns **true** or **false** (no scoring).
+
+- **True**: The cover is within an acceptable distance.
+- **False**: It's either too close (inside a wall) or too far to be effective.
+
+### How It Works:
+
+1. The AI gets the **Hostile's** location.
+    
+    - If the hostile is no longer visible, it uses **LastSeenLocation** instead.
+    
+2. A **line trace** is performed from the query position to the hostile.
+    
+    - If the trace **does not hit anything**, the cover is ignored (the hostile has a clear view).
+    - Otherwise, it checks if the distance is within the valid range:
+    
+    `if (Distance < CoverDistanceThreshold && Distance > CoverDistanceTooClose)`
+    
+    **Example values:**
+    - `float CoverDistanceThreshold = 120.0f`
+    - `float CoverDistanceTooClose = 30.0f`
+    - `float Distance = FVector::Distance(HitResult.Location, ItemLocation) 
+    `
+    This ensures the cover is not too close but still provides good protection.
+
+### Debugging:
+
+Add this line inside the **for loop** to visualize the traces:
+
+`DrawDebugLine(GetWorld(), ItemLocation, HitResult.Location, FColor::Green, false, 20.f);`
 
 
 
-this spasficly needs
- (and yes the string mast be the same )
 
-Vector - LastSeenLocation
-Actor - Hostile
+image inside the envirment querry
 
 
-
-
-summry this task node is for checking if the cover points is to close for not trying to go inside one because its inside of a wall not to far so the cover wotent be that good from the start 
-
-
-result - the quriey is a true or false no score so if its close engoth not to far yes not to clsoe it getts a pass 
+![[Pasted image 20250316224258.png]]
 
 
 
-
-how it works 
-
-the ai gets the location of the hostile or if hotile is none (if the player cant see him anymore)
-it takes the last seen location 
-
-
-
-
-
-
-code
-EnvQueryTest_CloseCover.h
+CODE
 
 #pragma once  
   
