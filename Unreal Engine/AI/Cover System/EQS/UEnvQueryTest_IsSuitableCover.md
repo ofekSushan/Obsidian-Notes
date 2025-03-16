@@ -59,8 +59,96 @@ This task node is more complex than **Close Cover** as it assigns a score rather
 
 
 
+code 
+
+
+(look bellow for this function)
+FVector PlayerLocation = FindPlayerLocation(
+    Blackboard, 
+    HostileBlackboard.SelectedKeyName,  
+    LastSeenLocationBlackboard.SelectedKeyName, 
+    Character,  
+    BoneToSearchFor
+);  
+
+for (FEnvQueryInstance::ItemIterator EQSItem(this, QueryInstance); EQSItem; ++EQSItem)  
+{                
+    float CoverScore = 0;  
+    FCollisionQueryParams CollisionParams(FName(TEXT("PlayerVisibilityTest")), false, Character);  
+    FVector ItemLocation = GetItemLocation(QueryInstance, EQSItem.GetIndex());  
+    FHitResult HitResult;  
+    float Distance;  
+
+    switch (UCoverUtils::FindCoverType(
+        GetWorld(), 
+        ItemLocation, 
+        PlayerLocation, 
+        CollisionParams,  
+        false
+    ))  
+    {                
+        case EAICoverState::EACS_CoverCrouching:  
+            GetWorld()->LineTraceSingleByChannel(
+                HitResult, 
+                ItemLocation, 
+                PlayerLocation,  
+                ECC_Visibility,  
+                CollisionParams
+            );                   
+            Distance = FVector::Distance(HitResult.Location, ItemLocation);  
+            CoverScore = Distance / CoverDistanceThreshold;  
+            break;  
+
+        case EAICoverState::EACS_CoverRight:  
+        case EAICoverState::EACS_CoverLeft:  
+            GetWorld()->LineTraceSingleByChannel(
+                HitResult, 
+                ItemLocation, 
+                PlayerLocation,  
+                ECC_Visibility,  
+                CollisionParams
+            );                   
+            Distance = FVector::Distance(HitResult.Location, ItemLocation);  
+            CoverScore = (CoverDistanceThreshold - Distance) / CoverDistanceThreshold;  
+            break;  
+
+        default: 
+            break;  
+    }                
+
+    EQSItem.SetScore(
+        TestPurpose, 
+        FilterType, 
+        CoverScore, 
+        MinThresholdValue, 
+        MaxThresholdValue
+    );  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**FInd player locaiton function** 
+
 now find cover type is diffrent because not like the other we dont just try to do i line trace to a location of the player we are doing a line trace to the head so he cant try to do a line trace to the feet we are doing it with the look for ("head") bone now of corse not every one has the exsect bone stracture witha "head" bone spaficly but if not it will just a simple line trace to the location of the player witch most of the time will be in the torso witch is good but not parfect 
 
 and of corse if he dosnt know the enmy locatino since he disbred he will just do it for the last seen location 
 
-or even if somewhy both are not working witch sould never heppends since he cant get inside this 
+or even if somewhy both are not working witch sould never heppends since he cant get inside this qurey without one being true he will just do it for forwrd vector so the gamw wotent crash 
+
+
+code
+
+
