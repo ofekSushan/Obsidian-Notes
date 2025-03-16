@@ -1,10 +1,12 @@
 
 
-### **Important:**
+
+![[Pasted image 20250316233257.png]]
 
 This AI code relies on a blackboard.  
 See here for blackboard details.  
 // TODO: Write a blackboard information document.
+
 
 ### **Required Blackboard Keys:**
 
@@ -12,8 +14,7 @@ See here for blackboard details.
 - **Actor** - `Hostile`
 ### **Summary:**
 
-This task node is more complex than **Close Cover** as it assigns a score rather than a simple pass/fail. The higher the score, the better the cover.
-
+This task node is more complex than **Close Cover** as it first checks if the cover is **crouching** or positioned to the **left** or **right** of a wall. If valid, it then assigns a score from **0 to 1** based on how effective the cover is.
 ### **How It Works:**
 
 1. **FindCoverType** (look here for more info (TODO: Add a note for FindCoverType utility) )
@@ -58,97 +59,15 @@ This task node is more complex than **Close Cover** as it assigns a score rather
     
 
 
+### **Find Player Location Function**
 
-code 
+Unlike other cover queries, **FindCoverType** doesn’t just perform a line trace to the player’s location—it specifically traces to the **head**. This prevents the AI from mistakenly tracing to the player's feet.
 
+To achieve this, the function attempts to find the **"head"** bone. However, since not all character models use the same bone structure, if the "head" bone isn’t found, it defaults to a standard line trace to the **player’s location**, which typically aligns with the torso. This isn’t perfect but works well in most cases.
 
-(look bellow for this function)
-FVector PlayerLocation = FindPlayerLocation(
-    Blackboard, 
-    HostileBlackboard.SelectedKeyName,  
-    LastSeenLocationBlackboard.SelectedKeyName, 
-    Character,  
-    BoneToSearchFor
-);  
+Additionally:
 
-for (FEnvQueryInstance::ItemIterator EQSItem(this, QueryInstance); EQSItem; ++EQSItem)  
-{                
-    float CoverScore = 0;  
-    FCollisionQueryParams CollisionParams(FName(TEXT("PlayerVisibilityTest")), false, Character);  
-    FVector ItemLocation = GetItemLocation(QueryInstance, EQSItem.GetIndex());  
-    FHitResult HitResult;  
-    float Distance;  
-
-    switch (UCoverUtils::FindCoverType(
-        GetWorld(), 
-        ItemLocation, 
-        PlayerLocation, 
-        CollisionParams,  
-        false
-    ))  
-    {                
-        case EAICoverState::EACS_CoverCrouching:  
-            GetWorld()->LineTraceSingleByChannel(
-                HitResult, 
-                ItemLocation, 
-                PlayerLocation,  
-                ECC_Visibility,  
-                CollisionParams
-            );                   
-            Distance = FVector::Distance(HitResult.Location, ItemLocation);  
-            CoverScore = Distance / CoverDistanceThreshold;  
-            break;  
-
-        case EAICoverState::EACS_CoverRight:  
-        case EAICoverState::EACS_CoverLeft:  
-            GetWorld()->LineTraceSingleByChannel(
-                HitResult, 
-                ItemLocation, 
-                PlayerLocation,  
-                ECC_Visibility,  
-                CollisionParams
-            );                   
-            Distance = FVector::Distance(HitResult.Location, ItemLocation);  
-            CoverScore = (CoverDistanceThreshold - Distance) / CoverDistanceThreshold;  
-            break;  
-
-        default: 
-            break;  
-    }                
-
-    EQSItem.SetScore(
-        TestPurpose, 
-        FilterType, 
-        CoverScore, 
-        MinThresholdValue, 
-        MaxThresholdValue
-    );  
-}  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**FInd player locaiton function** 
-
-now find cover type is diffrent because not like the other we dont just try to do i line trace to a location of the player we are doing a line trace to the head so he cant try to do a line trace to the feet we are doing it with the look for ("head") bone now of corse not every one has the exsect bone stracture witha "head" bone spaficly but if not it will just a simple line trace to the location of the player witch most of the time will be in the torso witch is good but not parfect 
-
-and of corse if he dosnt know the enmy locatino since he disbred he will just do it for the last seen location 
-
-or even if somewhy both are not working witch sould never heppends since he cant get inside this qurey without one being true he will just do it for forwrd vector so the gamw wotent crash 
-
-
-code
-
-
+- If the enemy’s location is **unknown** (e.g., they disappeared from view), the function will trace to their **last seen location**.
+- If, for some reason, **both** of these fail (which should never happen since at least one should always be valid), it falls back to using the **forward vector** to prevent the game from crashing.
+  
+  
