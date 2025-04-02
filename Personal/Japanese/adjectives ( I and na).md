@@ -49,4 +49,10 @@ To make an **い-adjective past negative**, replace **い** with **くなかっ�
 
 📝 **Special case: "Good" (いい) past negative becomes よくなかった (yokunakatta)**
 
+-------
+# 🔹 **Irregular: いい (ii)** - Good
 
+	良 = yo
+🌟 **いい → 良くない** (_ii → yokunai_) – "Not good"  
+🌟 **いい → よかった** (_ii → yokatta_) – "Was good"  
+🌟 **いい → よくなかった** (_ii → yokunakatta_) – "Was not good"
