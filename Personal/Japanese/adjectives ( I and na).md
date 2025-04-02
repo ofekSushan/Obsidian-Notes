@@ -1,4 +1,12 @@
-# 🔹**い-adjectives
+
+
+**Noun (שמות עצם) – is a thing, a person, or a place.**  
+**Like a book, a dog, or a teacher.**  
+  
+**Adjective (שמות תואר) – describes a noun.**  
+**Like a big book, a cute dog, or a smart teacher.**
+
+# ==🔹**い-adjectives==
 
 **い-adjectives** describe **qualities, conditions, and emotions** and always end in **い**.  
 , **い-adjectives cannot take だ** because they already function as predicates.
@@ -33,9 +41,6 @@ To make an **い-adjective past tense**, replace **い** with **かった**.
 💴 **高い → 高かった** (_takai → takakatta_) – "Was expensive"  
 🔥 **暑い → 暑かった** (_atsui → atsukatta_) – "Was hot"
 
-📝 **Special case: "Good" (いい) becomes よかった (yokatta) ** 
-✅ **いい → よかった** (_ii → yokatta_) – "Was good"
-
 ---
 
 
@@ -47,12 +52,128 @@ To make an **い-adjective past negative**, replace **い** with **くなかっ�
 💴 **高い → 高くなかった** (_takai → takaku nakatta_) – "Was not expensive"  
 🔥 **暑い → 暑くなかった** (_atsui → atsuku nakatta_) – "Was not hot"
 
-📝 **Special case: "Good" (いい) past negative becomes よくなかった (yokunakatta)**
-
 -------
-# 🔹 **Irregular: いい (ii)** - Good
+## 🔹 **Irregular: いい (ii)** - Good
 
 	良 = yo
+	
 🌟 **いい → 良くない** (_ii → yokunai_) – "Not good"  
 🌟 **いい → よかった** (_ii → yokatta_) – "Was good"  
 🌟 **いい → よくなかった** (_ii → yokunakatta_) – "Was not good"
+
+---
+
+
+
+
+# ==🔹**な-adjectives (Adjectival Nouns)**==
+
+**Adjectival nouns** describe **qualities, conditions, and states** but behave like **nouns** until **な** is added before another noun.
+
+---
+
+==🔹**Common な-adjectives**==
+
+🎮 **元気** (_genki_) – "Energetic / Healthy"  
+💼 **静か** (_shizuka_) – "Quiet"  
+💖 **親切** (_shinsetsu_) – "Kind"  
+🎓 **賢い** (_kashikoi_) – "Smart"  
+🌸 **きれい** (_kirei_) – "Beautiful / Clean"  
+🌟 **有名** (_yuumei_) – "Famous"  
+📚 **楽しい** (_tanoshii_) – "Fun / Enjoyable"
+
+---
+
+## 🔹**Using な-adjectives Before Nouns**
+
+Unlike **い-adjectives**, **な-adjectives** require **な** when directly modifying a noun.
+
+📝 **Structure:**  
+✅ **な-adjective + な + Noun**
+
+**Examples:**
+🎮 **元気な人** (_genki na hito_) – "A lively person"  
+💼 **静かな部屋** (_shizuka na heya_) – "A quiet room"  
+🌟 **有名な歌手** (_yuumei na kashu_) – "A famous singer"  
+🌸 **きれいな花** (_kirei na hana_) – "A beautiful flower"
+
+---
+
+## **🔹A な-adjective acts like a noun until you add な***
+
+A **な-adjective** functions like a **noun** by itself. To modify another noun, you must add **な**, turning it into an adjective.
+
+**with な: (describes the type of person)**  
+✅ **静かな人** (_shizuka na hito_) – "A quiet person" 
+
+**without な: (describes their state)**
+✅ **この人は静かだ** (_kono hito wa shizuka da_) – "This person is quiet." 
+
+---
+
+## **🔹 Negative Form (じゃない)**
+
+To make a **な-adjective negative**, add **じゃない** after the adjective.
+
+🎮 **元気** (_genki_) – "Energetic"  
+✅ **元気じゃない** (_genki ja nai_) – "Not energetic / not healthy"
+
+---
+
+## **🔹 Past Form (だった)**
+
+To make a **な-adjective past tense**, add **だった** after the adjective.
+
+🎮 **元気** (_genki_) – "Energetic"  
+✅ **元気だった** (_genki datta_) – "Was energetic"
+
+---
+
+## **🔹 Past Negative (じゃなかった)**
+
+To make a **な-adjective past negative**, add **じゃなかった** after the adjective.
+
+🎮 **元気** (_genki_) – "Energetic"  
+✅ **元気じゃなかった** (_genki ja nakatta_) – "Was not energetic"
+## 🔹**Irregular な-adjectives**
+
+Some **な-adjectives** have irregular forms in the negative and past tense. Here's a quick guide:
+
+---
+
+### **嫌い** (_kirai_) – "Dislike / Hate"
+
+**Negative Form:**  
+✅ **嫌いじゃない** (_kirai ja nai_) – "Not disliked / not hated"
+
+**Past Form:**  
+✅ **嫌いだった** (_kirai datta_) – "Disliked / hated"
+
+**Past Negative Form:**  
+✅ **嫌いじゃなかった** (_kirai ja nakatta_) – "Was not disliked / was not hated"
+
+---
+
+### **きれい** (_kirei_) – "Beautiful / Clean"
+
+**Negative Form:**  
+✅ **きれいじゃない** (_kirei ja nai_) – "Not beautiful / not clean"
+
+**Past Form:**  
+✅ **きれいだった** (_kirei datta_) – "Was beautiful / was clean"
+
+**Past Negative Form:**  
+✅ **きれいじゃなかった** (_kirei ja nakatta_) – "Was not beautiful / was not clean"
+
+---
+
+### **有名** (_yuumei_) – "Famous"
+
+**Negative Form:**  
+✅ **有名じゃない** (_yuumei ja nai_) – "Not famous"
+
+**Past Form:**  
+✅ **有名だった** (_yuumei datta_) – "Was famous"
+
+**Past Negative Form:**  
+✅ **有名じゃなかった** (_yuumei ja nakatta_) – "Was not famous"
