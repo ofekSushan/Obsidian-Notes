@@ -120,12 +120,20 @@ To make a **な-adjective negative**, add **じゃない** after the adjective.
 
 ---
 
-## **🔹 Past Form (だった)**
+## **🔹 Past Form (だった) (Casual)**
 
 To make a **な-adjective past tense**, add **だった** after the adjective.
 
 🎮 **元気** (_genki_) – "Energetic"  
 ✅ **元気だった** (_genki datta_) – "Was energetic"
+
+---
+## **🔹 Past Form (でした) (Polite)**
+
+**でした** is a more polite way to express the past tense of a **な-adjective**.
+
+🎮 **元気** (_genki_) – "Energetic"  
+✅ **元気でした** (_genki deshita_) – "Was energetic" (**polite**)
 
 ---
 
@@ -135,45 +143,13 @@ To make a **な-adjective past negative**, add **じゃなかった** after the 
 
 🎮 **元気** (_genki_) – "Energetic"  
 ✅ **元気じゃなかった** (_genki ja nakatta_) – "Was not energetic"
+
+---
+
 ## 🔹**Irregular な-adjectives**
 
 Some **な-adjectives** have irregular forms in the negative and past tense. Here's a quick guide:
 
----
-
-### **嫌い** (_kirai_) – "Dislike / Hate"
-
-**Negative Form:**  
-✅ **嫌いじゃない** (_kirai ja nai_) – "Not disliked / not hated"
-
-**Past Form:**  
-✅ **嫌いだった** (_kirai datta_) – "Disliked / hated"
-
-**Past Negative Form:**  
-✅ **嫌いじゃなかった** (_kirai ja nakatta_) – "Was not disliked / was not hated"
-
----
-
-### **きれい** (_kirei_) – "Beautiful / Clean"
-
-**Negative Form:**  
-✅ **きれいじゃない** (_kirei ja nai_) – "Not beautiful / not clean"
-
-**Past Form:**  
-✅ **きれいだった** (_kirei datta_) – "Was beautiful / was clean"
-
-**Past Negative Form:**  
-✅ **きれいじゃなかった** (_kirei ja nakatta_) – "Was not beautiful / was not clean"
-
----
-
-### **有名** (_yuumei_) – "Famous"
-
-**Negative Form:**  
-✅ **有名じゃない** (_yuumei ja nai_) – "Not famous"
-
-**Past Form:**  
-✅ **有名だった** (_yuumei datta_) – "Was famous"
-
-**Past Negative Form:**  
-✅ **有名じゃなかった** (_yuumei ja nakatta_) – "Was not famous"
+💔 **嫌い** (_kirai_) – "Dislike / Hate"  
+🌸 **きれい** (_kirei_) – "Beautiful / Clean"  
+🌟 **有名** (_yuumei_) – "Famous"
