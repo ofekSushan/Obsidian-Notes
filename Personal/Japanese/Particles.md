@@ -70,7 +70,40 @@
 (Koko ka soko desu ka?) – Is it here or there?  
   
 -------------------------------------------------------------------------------------------------------------------------  
-  
+
+  # **🔹 です (desu) – Polite Statement Ending**
+
+🗣 Pronounced "dess".
+
+summary: "です" is used to end a polite statement. It is often added to nouns, adjectives, and verbs to form a respectful tone in speech.
+
+1 . Polite declaration of a fact.**
+2 . **Used with adjectives and nouns.**
+
+**1.Polite declaration of a fact:**  
+🎓 これはペンです。  
+(Kore wa pen desu.) – This is a pen. (Polite statement)
+
+**2.Used with adjectives and nouns:**  
+🍎 りんごは美味しいです。  
+(Ringo wa oishii desu.) – The apple is delicious. (Polite adjective use)
+
+----
+
+# **🔹 でした (deshita) – Polite Past Tense**
+
+🗣 Pronounced "deshita" like "dessh-tah".
+
+summary: "でした" is used to turn a statement into the polite past tense. It is the past form of "です" and is used for formal conversations.
+
+1 . **Turning a present statement into the past.**
+
+**1.Turning a present statement into the past:**  
+🎓 これはペンでした。  
+(Kore wa pen deshita.) – This was a pen. (Polite past tense)
+
+---
+
 # **🔹 の (no) – Possession Marker**  
 
 🗣 Pronounced "no" like "no" in English.  
