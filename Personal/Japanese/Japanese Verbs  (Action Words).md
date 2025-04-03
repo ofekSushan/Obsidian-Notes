@@ -1,4 +1,4 @@
-
+1
 **Verbs are words that describe actions, states, or occurrences.**
 
 Examples:  

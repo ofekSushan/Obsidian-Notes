@@ -5,6 +5,7 @@
 **Adjective (שמות תואר) – describes a noun.**  
 **Like a big book, a cute dog, or a smart teacher.**
 
+---
 
 
 # ==🔹 **じゃない (janai) – Casual**==
@@ -29,11 +30,7 @@ It means **"is not"** or **"aren't"**.
 🧑‍🏫 **あの人は先生じゃなかった。**  
 (_Ano hito wa sensei janakatta._) – "That person was not a teacher."
 
-
-
 ---
-
-
 
 # ==🔹 **ではない (dewa nai) – Formal**==
 
@@ -59,8 +56,6 @@ It means **"is not"** or **"aren't"**.
 
 ---
 
-
-
 # ==🔹 **ではありません (dewa arimasen) – Very Formal**==
 
 **ではありません** is the **most polite** way to negate **nouns** and **な-adjectives**.  
@@ -83,8 +78,6 @@ It is used in **formal speech, business settings, and writing**.
 (_Kare wa isha dewa arimasen deshita._) – "He was not a doctor." (**very formal**)
 
 ---
-
-
 
 # ==🔹 **くない (ku nai) – Negating い-adjectives**==
 
