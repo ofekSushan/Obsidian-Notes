@@ -51,12 +51,15 @@ The **え stem** is used for giving commands (**-て** (te) form) and making hyp
 
 ### **4. お Stem (Let’s Form)**
 
-The **お stem** is used to suggest doing something together, typically forming the **-ましょう** (mashou) or **-よう** (you) form.
+The **お stem** is used to suggest doing something together. This form can be in the **-ましょう** (mashou) or **-よう** (you) form.
 
-- **Example (Let’s):**  
-    🍣 **食べる** (たべる, taberu) → **食べましょう** (たべましょう, tabemashou)  
-    ("to eat" → "let’s eat")
-    
+**Example (Let’s form – ましょう):**  
+🍣 **食べる** (たべる, taberu) → **食べましょう** (たべましょう, tabemashou)  
+("to eat" → "Let’s eat")
+
+**Example (Let’s form – よう):**  
+🍣 **食べる** (たべる, taberu) → **食べよう** (たべよう, tabeyou)  
+("to eat" → "Let’s eat")
 
 ---
 ---
