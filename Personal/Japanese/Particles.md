@@ -345,7 +345,7 @@ Both ましょう and 〜う forms express the idea of suggesting doing somethin
 # ==**🔹 でしょう (de-sho) / だろう (da-roo) – Probably / I Told You So!**==
 
 🗣 "でしょう": Pronounced "de-sho" (polite)  
-🗣 "だろう": Pronounced "da-roo" (casual, often masculine)
+🗣 "だろう": Pronounced "da-roo" (casual, more confident , often masculine)
 
 summary: "でしょう" and "だろう" express **probability** or confirm something you already knew.
 
