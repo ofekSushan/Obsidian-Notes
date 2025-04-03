@@ -309,8 +309,38 @@ summary: "へ" shows **movement toward a destination**.
 ✈️ 日本へ旅行する。  
 (Nihon e ryokou suru.) – "I travel to Japan." (Heading toward Japan)
 
-
 ---
+
+# ==**🔹 ましょう (mashou) / 〜う (ou) – Let's... / Shall We...?**==
+
+🗣 "ましょう": Pronounced "mashou" (polite)  
+🗣 "〜う (ou)": Pronounced "ou" (casual, informal)
+
+**Summary**:  
+"ましょう" and "〜う" are used to make suggestions or offers to do something together. The key difference is that **ましょう** is polite, while **〜う** is informal and used with friends or in casual situations.
+
+### **1. Making a suggestion ("Let's...")**
+
+Both ましょう and 〜う forms express the idea of suggesting doing something, but the tone differs based on politeness.
+
+- **Making a suggestion ("Let's...")**
+    
+    **Examples:**  
+    - 🚶 **行きましょう** (Ikimashou) – "Let’s go." (polite)
+    
+	- 🚶 **行こう** (Ikou) – "Let’s go." (casual)
+
+### **2. Asking for a suggestion or offer ("Shall we...? / Shall I...?")**
+
+- **Asking a suggestion or offer ("Shall we...? / Shall I...?")**
+    
+    **Examples:**
+    
+    - 🚶 **行きましょうか** (Ikimashouka) – "Shall we go?" (polite)
+    
+    - 🚶 **行こうか** (Ikouka) – "Shall we go?" (casual)
+
+----
 
 # ==**🔹 でしょう (de-sho) / だろう (da-roo) – Probably / I Told You So!**==
 
@@ -335,6 +365,20 @@ summary: "でしょう" and "だろう" express **probability** or confirm somet
 
 ---
 
+# ==**🔹から (kara) – Because**==
+
+🗣 Pronounced "kara" like "kah-rah".
+
+summary: "から" marks **the starting point of movement** or **a cause/reason**.
+
+1. **Indicating a cause or reason.**
+
+1 . **Indicating a cause or reason:**** 
+🧊 寒いから、コートを着る。  
+(Samui kara, kooto o kiru.) – "Because it's cold, I wear a coat." (Cold is the cause)
+
+---
+
 # ==**🔹 まで (made) – Limit / Until**==
 
 🗣 Pronounced "made" like "mah-deh".
@@ -351,22 +395,3 @@ summary: "まで" marks **an endpoint (time/place) or a limit**.
 **2.Showing a limit or extent:**  
 🎯 ここまで来てください。  
 (Koko made kite kudasai.) – "Please come this far." (The limit is here)
-
----
-
-# ==**🔹から (kara) – Starting Point / Cause**==
-
-🗣 Pronounced "kara" like "kah-rah".
-
-summary: "から" marks **the starting point of movement** or **a cause/reason**.
-
-1. **Marking the starting point of movement.**
-2. **Indicating a cause or reason.**
-
-**1.Marking the starting point of movement:**  
-🏔️ 山から降りる。  
-(Yama kara oriru.) – "I come down from the mountain." (Mountain is the starting point)
-
-**2.Indicating a cause or reason:**  
-🧊 寒いから、コートを着る。  
-(Samui kara, kooto o kiru.) – "Because it's cold, I wear a coat." (Cold is the cause)
