@@ -1,8 +1,8 @@
 # ==**🔹 Ichidan Verbs – Verb Conjugation Stems**==
 
-### **1. あ Stem (Negative Form) 
+### **1. あ Stem (Negative Form)**
 
-the **あ stem** is used when conjugating to the negative form, typically using **-ない** (-nai).
+The **あ stem** is used when conjugating to the negative form, typically using **-ない** (-nai).
 
 - **Example:**  
     🍣 **食べる** (たべる, taberu) → **食べない** (たべない, tabenai)  
@@ -11,9 +11,9 @@ the **あ stem** is used when conjugating to the negative form, typically using 
 
 ---
 
-### **2. い Stem (Want To Form / Polite Negative) 
+### **2. い Stem (Want To Form / Polite Negative)**
 
- the **い stem** is used to express desire (want to) and also for polite negative conjugation (**-ません** (masen) and **-ました** (mashita)).
+The **い stem** is used to express desire (want to) and also for polite negative conjugation (**-ません** (masen) and **-ました** (mashita)).
 
 - **Example (Want to):**  
     🍣 **食べる** (たべる, taberu) → **食べたい** (たべたい, tabetai)  
@@ -34,9 +34,9 @@ the **あ stem** is used when conjugating to the negative form, typically using 
 
 ---
 
-### **3. え Stem (Command Form / Hypothetical) – え (E)**
+### **3. え Stem (Command Form / Hypothetical)**
 
- the **え stem** is used for giving commands (**-て** (te) form) and making hypothetical statements with **-ば** (ba).
+The **え stem** is used for giving commands (**-て** (te) form) and making hypothetical statements with **-ば** (ba).
 
 - **Example (Command):**  
     🍣 **食べる** (たべる, taberu) → **食べて** (たべて, tabete)  
@@ -49,22 +49,24 @@ the **あ stem** is used when conjugating to the negative form, typically using 
 
 ---
 
-### **4. お Stem (Let’s Form) – お (O)**
+### **4. お Stem (Let’s Form)**
 
-For **Ichidan verbs**, the **お stem** is used to suggest doing something together, typically forming the **-ましょう** (mashou) or **-よう** (you) form.
+The **お stem** is used to suggest doing something together, typically forming the **-ましょう** (mashou) or **-よう** (you) form.
 
-- **Example (Let’s form):**  
+- **Example (Let’s):**  
     🍣 **食べる** (たべる, taberu) → **食べましょう** (たべましょう, tabemashou)  
     ("to eat" → "let’s eat")
     
 
 ---
+---
+---
 
 # ==**🔹 Godan Verbs – Verb Conjugation Stems**==
 
-### **1. あ Stem (Negative Form) – あ (A)**
+### **1. あ Stem (Negative Form)**
 
-For **Godan verbs**, the **あ stem** is used when conjugating to the negative form, typically using **-あない** (-anai).
+The **あ stem** is used when conjugating to the negative form, typically using **-あない** (-anai).
 
 - **Example:**  
     ✍️ **書く** (かく, kaku) → **書かない** (かかない, kakanai)  
@@ -73,9 +75,9 @@ For **Godan verbs**, the **あ stem** is used when conjugating to the negative f
 
 ---
 
-### **2. い Stem (Want To Form / Polite Negative) – い (I)**
+### **2. い Stem (Want To Form / Polite Negative)**
 
-For **Godan verbs**, the **い stem** is used to express desire (want to) and also for polite negative conjugation (**-ません** (masen) and **-ました** (mashita)).
+The **い stem** is used to express desire (want to) and also for polite negative conjugation (**-ません** (masen) and **-ました** (mashita)).
 
 - **Example (Want to):**  
     ✍️ **書く** (かく, kaku) → **書きたい** (かきたい, kakitai)  
@@ -96,9 +98,9 @@ For **Godan verbs**, the **い stem** is used to express desire (want to) and al
 
 ---
 
-### **3. え Stem (Command Form / Hypothetical) – え (E)**
+### **3. え Stem (Command Form / Hypothetical)**
 
-For **Godan verbs**, the **え stem** is used for giving commands (**-え** (e) form) and making hypothetical statements with **-えば** (eba).
+The **え stem** is used for giving commands (**-え** (e) form) and making hypothetical statements with **-えば** (eba).
 
 - **Example (Command):**  
     ✍️ **書く** (かく, kaku) → **書け** (かけ, kake)  
@@ -106,15 +108,26 @@ For **Godan verbs**, the **え stem** is used for giving commands (**-え** (e) 
     
 - **Example (Hypothetical):**  
     ✍️ **書く** (かく, kaku) → **書けば** (かけば, kakeba)  
-    ("to write" → "if [you] write")
+    ("to write" → "if you write")
+
+
+- **Example (Command – Death):**  
+    ⚰️ **死ぬ** (しぬ, shinu) → **死ね** (しね, shine)  
+    ("to die" → "Die!" (command form))
     
+    (Note: **死ね** is a very strong and impolite command, often considered very harsh or rude.)
+    
+- **Example (Hypothetical – Death):**  
+    ⚰️ **死ぬ** (しぬ, shinu) → **死ねば** (しねば, shineba)  
+    ("to die" → "if you die")
+
 
 ---
 
-### **4. お Stem (Let’s Form) – お (O)**
+### **4. お Stem (Let’s Form)**
 
-For **Godan verbs**, the **お stem** is used to suggest doing something together, typically forming the **-おう** (ou) form.
+The **お stem** is used to suggest doing something together, typically forming the **-おう** (ou) form.
 
-- **Example (Let’s form):**  
+- **Example (Let’s):**  
     ✍️ **書く** (かく, kaku) → **書こう** (かこう, kakou)  
     ("to write" → "let’s write")
