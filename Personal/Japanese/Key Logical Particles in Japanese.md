@@ -1,5 +1,3 @@
-![[Pasted image 20250410211556.png]]
-
 
 # 🔹==**Key Logical Particles in Japanese**==
 
@@ -18,15 +16,25 @@
 
 ## **に (Ni)**
 
-- **Function:** Indicates the destination of an action or where something is located.
+- **Function:** Marks the destination, location, purpose, and target of an action.
     
-    **Example:**  
-    学校に行く。("I go to school.")
-    
-    **Note:**  
-    **に** can also be used to show the goal of an action, like "arriving at" or "reaching."
-    
-
+    - **Target of an action**: Marks the ultimate target of an action or the person or thing that an action is directed toward.
+        
+        - **Example:**  
+            さくらにボールを投げた。("I threw the ball at Sakura.")
+            
+        
+        In this example, **に** marks **Sakura** as the target of the action (throwing). **を** marks the object being thrown (the ball), and **が** marks the subject of the action (the person throwing).
+        
+    - **Location**: Marks the place where something is or where an action occurs.
+        
+        - **Example:**  
+            公園にいる。("I am at the park.")
+            
+    - **Purpose of an action**: Used to indicate the goal or purpose of an action.
+        
+        - **Example:**  
+            お店に卵を買いに行く。("I go to the shop to buy eggs.")
 ---
 
 ## **で (De)**
@@ -48,6 +56,7 @@
 
 ---
 
+![[Pasted image 20250410234527.png]]
 ### **Comparison: に vs. で (Destination vs. Action Location)**
 
 - **に:** Used to indicate a destination or point of arrival.  
@@ -63,45 +72,38 @@
 
 ---
 
-# 🔹==**Combining で and に:**==
 
-You can use both **で** and **に** in a sentence when describing **where** and **to whom** or **to what** an action is directed.
 
-**Example:**  
+# 🔹==**Combining で, に, and を**==
+
+You can combine **で**, **に**, and **を** to describe where an action is happening, where it's going, and what it's affecting.
+
+### **Example 1:**
+
 **学校で友達に会います** (_Gakkou de tomodachi ni aimasu_) — "I will meet my friend at school."
 
 - **で** marks **where** the meeting happens (at school).
     
 - **に** marks **who** the action is directed toward (the friend).
+    
+
 ---
 
+### **Example 2:**
 
-# 🔹==**Adding Modifiers Before a Noun:**==
+**学校で本を読む** (_Gakkou de hon o yomu_) — "I read a book at school."
 
-Modifiers like **adjectives**, **time expressions**, and **possessions** can be added **before a noun** to provide more detail.
-
-
-## **Using Adjectives:**
-
-- **Adjectives** come **before** the noun to describe it.
+- **で** marks **where** the action happens (at school).
     
-    **Example:**  
-    **大きい山に登ります** (_Ookii yama ni noborimasu_) — "I will climb a big mountain."  
-    (Here, **大きい** (_ookii_) is the **adjective** describing **山** (_yama_).)
+- **を** marks **what** is being read (the book).
     
 
-## **Using Time Expressions:**
+---
 
-- **Time expressions** like **明日** (_ashita_ - "tomorrow") come **before** the noun to indicate **when** an action takes place.
-    
-    **Example:**  
-    **明日学校に行きます** (_Ashita gakkou ni ikimasu_) — "I will go to school tomorrow."  
-    (Here, **明日** (_ashita_) marks the time of the action.)
-    
-## **Using Possession (の):**
+### **Example 3:**
 
-- **Possessive** forms like **の** (_no_) come **before** the noun to show **ownership** or **connection**.
+**学校に行って、本を読む** (_Gakkou ni itte, hon o yomu_) — "I will go to school and read a book."
+
+- **に** marks **where** I’m going (to school).
     
-    **Example:**  
-    **さくらの本を読みます** (_Sakura no hon o yomimasu_) — "I will read Sakura’s book."  
-    (Here, **さくらの** (_Sakura no_) indicates possession.)
+- **を** marks **what** I’m reading (the book).
