@@ -1,3 +1,7 @@
+
+
+
+
 # ==**🔹 Ichidan Verbs – Verb Conjugation Stems**==
 
 ### **1. あ Stem (Negative Form)**
