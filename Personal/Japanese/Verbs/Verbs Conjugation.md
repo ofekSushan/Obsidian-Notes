@@ -12,10 +12,6 @@
 
    (Ichidan verb) たべる - to eat / たべたい - to want to eat
    
-   ---
-   3. そう
-   
-
 ![[Pasted image 20250413154815.png]]
 
 ---
