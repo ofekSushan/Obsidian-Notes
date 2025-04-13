@@ -1,140 +1,73 @@
 
+---
+# **い from** 
+1. **ます - polite helper verb**
+   (Godan verb) のむ - to drink / のみ - あ from / のみます - to drink (polite)
 
+   (Ichidan verb) みる (見る) - to see /見ます - to see (polite)
+   
+   ---
+   2.  **たい - want help verb**
+   (Godan verb) のむ - to drink / のみ - あ from / のみたい - to want to drink 
 
+   (Ichidan verb) たべる - to eat / たべたい - to want to eat
+   
+   ---
+   3. そう
+   
 
-# ==**🔹 Ichidan Verbs – Verb Conjugation Stems**==
-
-### **1. あ Stem (Negative Form)**
-
-The **あ stem** is used when conjugating to the negative form, typically using **-ない** (-nai).
-
-- **Example:**  
-    🍣 **食べる** (たべる, taberu) → **食べない** (たべない, tabenai)  
-    ("to eat" → "not eat")
-    
+![[Pasted image 20250413154815.png]]
 
 ---
 
-### **2. い Stem (Want To Form / Polite Negative)**
+# **あ form** 
+1. **ない - negative helper verb**
+   (Godan verb) かう (買う) - to buy / かわ - あ from / かわない - not to buy
 
-The **い stem** is used to express desire (want to) and also for polite negative conjugation (**-ません** (masen) and **-ました** (mashita)).
+   (Ichidan verb) みる (見る) - to see /見ない - not to see 
 
-- **Example (Want to):**  
-    🍣 **食べる** (たべる, taberu) → **食べたい** (たべたい, tabetai)  
-    ("to eat" → "want to eat")
-    
-- **Example (Polite Negative):**  
-    🍣 **食べる** (たべる, taberu) → **食べません** (たべません, tabemasen)  
-    ("to eat" → "don’t eat" (polite))
-    
-- **Example (Past Polite Negative):**  
-    🍣 **食べる** (たべる, taberu) → **食べました** (たべました, tabemashita)  
-    ("to eat" → "ate" (polite))
-    
-- **Example (Negative Polite Past):**  
-    🍣 **食べる** (たべる, taberu) → **食べませんでした** (たべませんでした, tabemasen deshita)  
-    ("to eat" → "did not eat" (polite past))
-    
+---
+2. **receptive helper verb (to receive/to get) (Godan/れる, Ichidan/られる)  
+
+   (Godan verb) しかる - to scold / しから - あ from / しかられる - to get scolded
+
+   (Ichidan verb) たべる - to eat / たべられる - to get eaten (like by a zombie or some shit)
+
+---
+3. **causative helper verb (to make someone (force) / to allow) -
+   (Godan/せる, Ichidan/させる)**
+
+   (Godan verb) きく - to listen / きか -あ from / きかせる - (to make someone listen / let someone /listen)
+
+   (Ichidan verb) たべる - to eat / たべさせる - (make someone eat / allowed to eat)
+
+![[Pasted image 20250413154937.png]]
 
 ---
 
-### **3. え Stem (Command Form / Hypothetical)**
+# **え form**
 
-The **え stem** is used for giving commands (**-て** (te) form) and making hypothetical statements with **-ば** (ba).
+1. **Potential helper verb (can do / to be able) - (Godan/る, Ichidan/られる)**
+  か
+   (Godan verb) かく(書く) - to write / かけ -え from / かける - ( i can write)
+   
+   (Ichidan verb) たべる - to eat / たべられる - ( i can eat)
+   
+   ---
+   2. 
 
-- **Example (Command):**  
-    🍣 **食べる** (たべる, taberu) → **食べて** (たべて, tabete)  
-    ("to eat" → "eat" (command form))
-    
-- **Example (Hypothetical):**  
-    🍣 **食べる** (たべる, taberu) → **食べれば** (たべれば, tabereba)  
-    ("to eat" → "if you eat")
-    
-
----
-
-### **4. お Stem (Let’s Form)**
-
-The **お stem** is used to suggest doing something together. This form can be in the **-ましょう** (mashou) or **-よう** (you) form.
-
-**Example (Let’s form – ましょう):**  
-🍣 **食べる** (たべる, taberu) → **食べましょう** (たべましょう, tabemashou)  
-("to eat" → "Let’s eat")
-
-**Example (Let’s form – よう):**  
-🍣 **食べる** (たべる, taberu) → **食べよう** (たべよう, tabeyou)  
-("to eat" → "Let’s eat")
-
----
----
----
-
-# ==**🔹 Godan Verbs – Verb Conjugation Stems**==
-
-### **1. あ Stem (Negative Form)**
-
-The **あ stem** is used when conjugating to the negative form, typically using **-あない** (-anai).
-
-- **Example:**  
-    ✍️ **書く** (かく, kaku) → **書かない** (かかない, kakanai)  
-    ("to write" → "not write")
-    
+![[Pasted image 20250413164927.png]]
 
 ---
 
-### **2. い Stem (Want To Form / Polite Negative)**
+# **お from**
 
-The **い stem** is used to express desire (want to) and also for polite negative conjugation (**-ません** (masen) and **-ました** (mashita)).
+1.  lets helper verb (lets do/ do togther) - (Godan/う, Ichidan/よう)
 
-- **Example (Want to):**  
-    ✍️ **書く** (かく, kaku) → **書きたい** (かきたい, kakitai)  
-    ("to write" → "want to write")
-    
-- **Example (Polite Negative):**  
-    ✍️ **書く** (かく, kaku) → **書きません** (かきません, kakimasen)  
-    ("to write" → "don’t write" (polite))
-    
-- **Example (Past Polite Negative):**  
-    ✍️ **書く** (かく, kaku) → **書きました** (かきました, kakimashita)  
-    ("to write" → "wrote" (polite))
-    
-- **Example (Negative Polite Past):**  
-    ✍️ **書く** (かく, kaku) → **書きませんでした** (かきませんでした, kakimasen deshita)  
-    ("to write" → "did not write" (polite past))
-    
+　　　　　 い　　　　　 い　　　　　　　
+ (Godan verb) 行く - to go / 行こ -お from /  行こう- (lets go)
 
----
+(Ichidan verb) たべる - to eat / たべよう - ( lets eat)
+   
+![[Pasted image 20250413170129.png]]
 
-### **3. え Stem (Command Form / Hypothetical)**
-
-The **え stem** is used for giving commands (**-え** (e) form) and making hypothetical statements with **-えば** (eba).
-
-- **Example (Command):**  
-    ✍️ **書く** (かく, kaku) → **書け** (かけ, kake)  
-    ("to write" → "Write!")
-    
-- **Example (Hypothetical):**  
-    ✍️ **書く** (かく, kaku) → **書けば** (かけば, kakeba)  
-    ("to write" → "if you write")
-
-
-- **Example (Command – Death):**  
-    ⚰️ **死ぬ** (しぬ, shinu) → **死ね** (しね, shine)  
-    ("to die" → "Die!" (command form))
-    
-    (Note: **死ね** is a very strong and impolite command, often considered very harsh or rude.)
-    
-- **Example (Hypothetical – Death):**  
-    ⚰️ **死ぬ** (しぬ, shinu) → **死ねば** (しねば, shineba)  
-    ("to die" → "if you die")
-
-
----
-
-### **4. お Stem (Let’s Form)**
-
-The **お stem** is used to suggest doing something together, typically forming the **-おう** (ou) form.
-
-- **Example (Let’s):**  
-    ✍️ **書く** (かく, kaku) → **書こう** (かこう, kakou)  
-    ("to write" → "let’s write")
