@@ -1,4 +1,4 @@
-
+ש
 ### **そう overview**
 
 - **そう** = "like that" (appearance) or "they said" (hearsay)
