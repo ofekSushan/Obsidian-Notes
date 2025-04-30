@@ -365,17 +365,31 @@ summary: "でしょう" and "だろう" express **probability** or confirm somet
 
 ---
 
-# ==**🔹から (kara) – Because**==
+# ==**🔹から (kara) – Because / From**==
 
 🗣 Pronounced "kara" like "kah-rah".
 
-summary: "から" marks **the starting point of movement** or **a cause/reason**.
+**Summary:**  
+**から** marks either:
 
-1. **Indicating a cause or reason.**
+1. **The starting point** of time, place, or action (**from**)
+2. **A reason or cause** for something (**because**)
 
-1 . **Indicating a cause or reason:**** 
+
+1 . **Indicating a starting point (from):**
+📍 学校から帰る。  
+(Gakkou kara kaeru.) – "I return from school."
+
+🕓 いつから働いてる？  
+(_Itsu kara hataraiteru?_) – "From when are you working?." 
+("Since when have you been working?)
+
+---
+
+2 . **Indicating a cause or reason (because):**
 🧊 寒いから、コートを着る。  
-(Samui kara, kooto o kiru.) – "Because it's cold, I wear a coat." (Cold is the cause)
+(Samui kara, kooto o kiru.) – "Because it's cold, I wear a coat."  
+
 
 ---
 
