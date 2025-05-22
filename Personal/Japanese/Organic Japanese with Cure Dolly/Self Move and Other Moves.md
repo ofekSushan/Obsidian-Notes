@@ -1,5 +1,7 @@
 
 
+[Jouzu Juls - Video](https://www.youtube.com/watch?v=isnR2kGolgk)
+
 ![[Pasted image 20250522234813.png]]
 # ==**Self-Move vs Other-Move overview**==
 
@@ -11,6 +13,12 @@
 - **Other-move = 他動詞（たどうし） = transitive**  
      Subject moves **something else** 👉
     
+
+---
+
+
+![[Pasted image 20250523002708.png]]
+
 
 ---
 
@@ -32,11 +40,15 @@
       - 🏁 **始まる**（はじまる）_hajimaru_ — "to begin (by itself)"  
       - 🛑 **止まる**（とまる）_tomaru_ — "to stop (by itself)"
     
+Many self-move verbs often end with the **あ-stem** or endings like **～ある**, **～かる**, and **～さる**, for example:  
+  - 🏁 **始まる**（はじまる）_hajimaru_ — "to begin (by itself)"  
+  - 🤔 **分かる**（わかる）_wakaru_ — "to be understandable / to make sense (by itself)" 
+  - 🍂 **去る**（さる）_saru_ — "to leave, to go away" 
 
 ## **📚 Examples of 自動詞 (self-move):**
 
 - 🎓 授業が始まる。  
-     **Jugyō ga hajimaru.**  
+     **Jugyō ga hajimaru.**   
      ("The class begins (by itself).")
     
 - ⏰ 時計が止まる。  
@@ -47,6 +59,11 @@
      **Ame ga furu.**  
      ("It rains." / "The rain falls by itself.")
     
+
+![[Pasted image 20250523002949.png]]
+
+
+
 
 ---
 
@@ -62,24 +79,14 @@
 
 - Other-move verbs **usually take the を particle** to mark the object being acted upon. 📦➡️
     
-Many other-move verbs end with **～す**, like:  
-  - 📤 **出す**（だす）_dasu_ — "to take out (something)"  
-  - 🔻 **落とす**（おとす）_otosu_ — "to drop (something)"
+- Many other-move verbs end with **～す**, like:  
+      - 📤 **出す**（だす）_dasu_ — "to take out (something)"  
+      - 🔻 **落とす**（おとす）_otosu_ — "to drop (something)"
+    
+- Many other-move verbs end with **e-stem + る**, including endings like **～える**, **～ける**, and **～せる**, for example:  
+      - 🏃 **始める**（はじめる）_hajimeru_ — "to begin (something)" (～える)  
+      - 🎯 **投げる**（なげる）_nageru_ — "to throw (something)" (～える)  
+      - 👟 **履かせる**（はかせる）_hakaseru_ — "to put on (shoes) for someone" (～せる)
 
-## **📚 Examples of 他動詞 (other-move):**
 
-- 🗝️ ドアを開ける。  
-     **Doa o akeru.**  
-     ("I open the door.")
-    
-- 🚪 窓を閉める。  
-     **Mado o shimeru.**  
-     ("I close the window.")
-    
-- 🏁 レースを始める。  
-     **Rēsu o hajimeru.**  
-     ("I start the race.")
-    
-- 🛑 車を止める。  
-     **Kuruma o tomeru.**  
-     ("I stop the car.")
+![[Pasted image 20250523002922.png]]
